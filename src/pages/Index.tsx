@@ -109,7 +109,7 @@ const Index = () => {
         </OrnateFrame>
       </section>
 
-      <TibetanPatternDivider />
+
 
       {/* FEATURED WORKS — Carousel */}
       <section className="py-16 relative">
