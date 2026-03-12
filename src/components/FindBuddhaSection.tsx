@@ -31,7 +31,7 @@ const FindBuddhaSection = () => {
       <p className="text-center text-sm text-muted-foreground mb-10">Find Your Guardian Buddha</p>
 
       {/* Clover-shaped zodiac buttons */}
-      <div className="grid grid-cols-4 md:grid-cols-6 gap-4 max-w-md mx-auto mb-10">
+      <div className="grid grid-cols-4 md:grid-cols-6 gap-5 max-w-lg mx-auto mb-10">
         {zodiac.map((z) => (
           <button
             key={z.animal}
@@ -39,7 +39,7 @@ const FindBuddhaSection = () => {
             className="flex items-center justify-center group"
           >
             <div
-              className={`w-14 h-14 flex items-center justify-center transition-all duration-300 ${
+              className={`w-20 h-20 flex items-center justify-center transition-all duration-300 ${
                 selected === z.animal
                   ? "text-primary-foreground scale-110"
                   : "text-foreground hover:scale-105"
@@ -55,7 +55,7 @@ const FindBuddhaSection = () => {
                   : "none",
               }}
             >
-              <span className="text-xl">{z.emoji}</span>
+              <span className="text-2xl">{z.emoji}</span>
             </div>
           </button>
         ))}
