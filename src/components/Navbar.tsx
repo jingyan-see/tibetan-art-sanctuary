@@ -11,7 +11,7 @@ const Navbar = () => {
   const location = useLocation();
 
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 bg-background/40 backdrop-blur-xl border-b border-border/30">
+    <nav className="fixed top-0 left-0 right-0 z-50 bg-black/20 backdrop-blur-md border-b border-white/10">
       <div className="max-w-6xl mx-auto px-4 flex items-center justify-center h-16 gap-8 sm:gap-12">
         {navItems.map((item) => (
           <Link
