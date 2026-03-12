@@ -30,8 +30,8 @@ const FindBuddhaSection = () => {
       </motion.h2>
       <p className="text-center text-sm text-muted-foreground mb-10">Find Your Guardian Buddha</p>
 
-      {/* Chinese flower window shaped zodiac buttons */}
-      <div className="grid grid-cols-4 md:grid-cols-6 gap-5 max-w-lg mx-auto mb-10">
+      {/* Clover-shaped zodiac buttons */}
+      <div className="grid grid-cols-4 md:grid-cols-6 gap-4 max-w-md mx-auto mb-10">
         {zodiac.map((z) => (
           <button
             key={z.animal}
@@ -39,23 +39,23 @@ const FindBuddhaSection = () => {
             className="flex items-center justify-center group"
           >
             <div
-              className={`w-20 h-20 flex items-center justify-center transition-all duration-300 ${
+              className={`w-14 h-14 flex items-center justify-center transition-all duration-300 ${
                 selected === z.animal
                   ? "text-primary-foreground scale-110"
                   : "text-foreground hover:scale-105"
               }`}
               style={{
                 clipPath:
-                  "path('M40 4 C46 4 52 10 54 18 C54 18 56 14 62 12 C68 10 74 14 76 20 C78 26 74 32 68 34 C68 34 76 36 78 42 C80 48 78 56 72 60 C66 64 60 62 56 58 C56 58 58 64 56 70 C54 76 48 80 42 80 C36 80 32 76 30 70 C28 64 30 58 28 58 C24 62 20 64 14 60 C8 56 4 50 6 44 C8 38 14 34 18 34 C18 34 10 30 8 24 C6 18 10 12 16 10 C22 8 28 12 30 16 C30 16 32 10 36 6 C38 4 38 4 40 4Z')",
+                  "path('M28 2 C34 2 40 10 40 18 C48 18 54 22 54 28 C54 34 48 38 40 38 C40 46 34 54 28 54 C22 54 16 46 16 38 C8 38 2 34 2 28 C2 22 8 18 16 18 C16 10 22 2 28 2Z')",
                 background: selected === z.animal
                   ? "hsl(var(--primary))"
                   : "hsl(var(--card))",
                 boxShadow: selected === z.animal
-                  ? "0 0 16px hsl(var(--primary) / 0.4)"
-                  : "0 2px 8px hsl(var(--foreground) / 0.08)",
+                  ? "0 0 12px hsl(var(--primary) / 0.4)"
+                  : "none",
               }}
             >
-              <span className="text-2xl">{z.emoji}</span>
+              <span className="text-xl">{z.emoji}</span>
             </div>
           </button>
         ))}
