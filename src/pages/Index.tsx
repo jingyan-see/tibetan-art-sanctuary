@@ -24,38 +24,43 @@ const fadeUp = {
 
 const Index = () => {
   return (
-    <div className="pt-16">
-      {/* ARTIST HERO IMAGE — top clear, fading to transparent at bottom */}
-      <section className="relative w-full h-[65vh] md:h-[75vh] overflow-hidden -mt-16">
+    <div>
+      {/* FULL-SCREEN HERO — like Museo del Prado: photo fills viewport, text at bottom */}
+      <section className="relative w-full h-screen overflow-hidden">
         <img
           src={artistWorking}
           alt="唐卡画师创作中"
-          className="w-full h-full object-cover object-top"
+          className="w-full h-full object-cover"
         />
-        {/* Top: very subtle darkening for navbar readability */}
-        <div className="absolute inset-x-0 top-0 h-24 bg-gradient-to-b from-black/20 to-transparent" />
-        {/* Bottom: fade into page background — the key effect */}
-        <div className="absolute inset-x-0 bottom-0 h-[45%] bg-gradient-to-t from-background via-background/80 to-transparent" />
-        {/* Slight side vignette */}
-        <div className="absolute inset-0 bg-gradient-to-r from-background/20 via-transparent to-background/20" />
-        {/* Text overlay */}
-        <div className="absolute inset-0 flex flex-col items-center justify-end pb-[20%] text-center px-6">
+        {/* Bottom gradient: photo fades smoothly into background */}
+        <div className="absolute inset-x-0 bottom-0 h-[50%] bg-gradient-to-t from-background via-background/70 to-transparent" />
+        {/* Title at bottom-left, museum style */}
+        <div className="absolute inset-x-0 bottom-0 px-8 md:px-16 pb-12 md:pb-16">
+          <motion.p
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ duration: 0.6 }}
+            className="text-xs tracking-[0.3em] uppercase text-foreground/60 mb-3"
+            style={{ fontFamily: "var(--font-display-en)" }}
+          >
+            Thangka Art Studio
+          </motion.p>
           <motion.h1
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8 }}
-            className="font-display text-4xl md:text-6xl text-foreground mb-3"
+            transition={{ duration: 0.8, delay: 0.2 }}
+            className="font-display text-4xl md:text-6xl text-foreground mb-2"
           >
             扎西·唐卡艺术
           </motion.h1>
           <motion.p
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
-            transition={{ delay: 0.3, duration: 0.8 }}
-            className="text-lg md:text-xl text-muted-foreground"
+            transition={{ delay: 0.5, duration: 0.8 }}
+            className="text-base md:text-lg text-muted-foreground"
             style={{ fontFamily: "var(--font-display-en)" }}
           >
-            Tashi · Thangka Art Studio
+            传承藏传佛教唐卡绘画三十余年
           </motion.p>
         </div>
       </section>
