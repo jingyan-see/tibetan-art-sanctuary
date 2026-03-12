@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Noto+Serif+SC:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Ma+Shan+Zheng&family=Noto+Serif+SC:wght@400;500;600;700&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -44,8 +44,9 @@
     --dark-blue: 210 58% 30%;
     --dark-brown: 20 30% 12%;
 
-    --font-display: 'Cormorant Garamond', 'Noto Serif SC', serif;
+    --font-display: 'Ma Shan Zheng', 'Cormorant Garamond', serif;
     --font-body: 'Noto Serif SC', 'Cormorant Garamond', serif;
+    --font-display-en: 'Cormorant Garamond', serif;
 
     --shadow-frame: 0 4px 20px -4px hsl(20 30% 12% / 0.3);
     --shadow-card: 0 2px 12px -2px hsl(20 30% 12% / 0.15);
@@ -70,6 +71,7 @@
   body {
     @apply bg-background text-foreground;
     font-family: var(--font-body);
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200' viewBox='0 0 200 200'%3E%3Cpath d='M30 80 Q40 65 50 75 Q55 60 65 70 Q75 55 85 70 Q90 60 95 75 Q105 65 100 80' stroke='%23d4a017' stroke-width='0.5' fill='none' opacity='0.06'/%3E%3Cpath d='M130 40 Q140 25 150 35 Q155 20 165 30 Q175 15 185 30 Q190 20 195 35 Q205 25 200 40' stroke='%23d4a017' stroke-width='0.5' fill='none' opacity='0.06'/%3E%3Cpath d='M60 160 Q70 145 80 155 Q85 140 95 150 Q105 135 115 150 Q120 140 125 155 Q135 145 130 160' stroke='%23d4a017' stroke-width='0.5' fill='none' opacity='0.06'/%3E%3Cpath d='M150 120 Q160 105 170 115 Q175 100 185 110 Q195 95 205 110' stroke='%23d4a017' stroke-width='0.5' fill='none' opacity='0.04'/%3E%3Cpath d='M10 140 Q20 125 30 135 Q35 120 45 130' stroke='%23d4a017' stroke-width='0.5' fill='none' opacity='0.04'/%3E%3C/svg%3E");
   }
 
   h1, h2, h3, h4, h5, h6 {
