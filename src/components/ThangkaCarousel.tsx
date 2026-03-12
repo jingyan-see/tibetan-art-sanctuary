@@ -14,12 +14,11 @@ const ThangkaCarousel = () => {
     if (!el) return;
 
     let scrollPos = 0;
-    const speed = 0.4; // px per frame — slow museum scroll
+    const speed = 0.35;
 
     const animate = () => {
       if (!isPaused.current && el) {
         scrollPos += speed;
-        // Reset when we've scrolled through half (the duplicated set)
         if (scrollPos >= el.scrollWidth / 2) {
           scrollPos = 0;
         }
@@ -38,7 +37,6 @@ const ThangkaCarousel = () => {
   const handleMouseEnter = () => { isPaused.current = true; };
   const handleMouseLeave = () => { isPaused.current = false; };
 
-  // Duplicate items for infinite scroll effect
   const items = [...thangkas, ...thangkas];
 
   if (thangkas.length === 0) return null;
@@ -50,7 +48,7 @@ const ThangkaCarousel = () => {
       onMouseLeave={handleMouseLeave}
       onTouchStart={handleMouseEnter}
       onTouchEnd={handleMouseLeave}
-      className="flex gap-6 overflow-x-hidden px-6 py-4 cursor-grab"
+      className="flex gap-5 overflow-x-hidden px-8 py-4 cursor-grab"
       style={{ scrollbarWidth: "none", msOverflowStyle: "none" }}
     >
       {items.map((t, i) => (
@@ -60,21 +58,26 @@ const ThangkaCarousel = () => {
           className="flex-shrink-0"
         >
           <motion.div
-            whileHover={{ y: -8, scale: 1.02 }}
-            transition={{ duration: 0.4, ease: "easeOut" }}
-            className="w-56 md:w-72 group"
+            whileHover={{ y: -6 }}
+            transition={{ duration: 0.5, ease: [0.25, 0.1, 0.25, 1] }}
+            className="w-52 md:w-64 group"
           >
-            <div className="overflow-hidden rounded-2xl shadow-lg aspect-[3/4] bg-card">
+            <div className="overflow-hidden rounded-sm shadow-md aspect-[3/4] bg-card border border-accent/10">
               <img
                 src={t.image}
                 alt={t.name}
-                className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+                className="w-full h-full object-cover transition-transform duration-1000 ease-out group-hover:scale-105"
               />
             </div>
-            <div className="pt-3 text-center">
-              <h3 className="font-display text-sm font-semibold text-foreground">{t.nameCn}</h3>
-              <p className="text-xs text-muted-foreground mt-0.5">{t.name}</p>
-              <p className="text-xs text-accent mt-1">{t.typeCn}</p>
+            <div className="pt-4 text-center">
+              <h3 className="font-display text-sm text-foreground tracking-wider">{t.nameCn}</h3>
+              <p
+                className="text-[10px] text-muted-foreground/50 mt-0.5 tracking-[0.15em]"
+                style={{ fontFamily: "var(--font-display-en)" }}
+              >
+                {t.name}
+              </p>
+              <p className="text-[10px] text-accent/60 mt-1.5 tracking-wider">{t.typeCn}</p>
             </div>
           </motion.div>
         </Link>
