@@ -1,10 +1,11 @@
 import { useParams } from "react-router-dom";
 import { motion } from "framer-motion";
-import { thangkas } from "@/data/thangkaData";
+import { useThangkas } from "@/hooks/useData";
 import ThangkaCard from "@/components/ThangkaCard";
 
 const GalleryPage = () => {
   const { type } = useParams<{ type: string }>();
+  const { data: thangkas = [], isLoading } = useThangkas();
   const filtered = thangkas.filter((t) =>
     type === "wearable" ? t.type === "wearable" : t.type === "large"
   );
@@ -23,20 +24,24 @@ const GalleryPage = () => {
         </motion.h1>
         <p className="text-center text-sm text-muted-foreground mb-12">{subtitle}</p>
 
-        <div className="grid grid-cols-2 md:grid-cols-3 gap-6 md:gap-8">
-          {filtered.map((t, i) => (
-            <motion.div
-              key={t.id}
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ delay: i * 0.1 }}
-            >
-              <ThangkaCard thangka={t} />
-            </motion.div>
-          ))}
-        </div>
+        {isLoading ? (
+          <p className="text-center text-muted-foreground py-20">加载中...</p>
+        ) : (
+          <div className="grid grid-cols-2 md:grid-cols-3 gap-6 md:gap-8">
+            {filtered.map((t, i) => (
+              <motion.div
+                key={t.id}
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ delay: i * 0.1 }}
+              >
+                <ThangkaCard thangka={t} />
+              </motion.div>
+            ))}
+          </div>
+        )}
 
-        {filtered.length === 0 && (
+        {!isLoading && filtered.length === 0 && (
           <p className="text-center text-muted-foreground py-20">暂无作品 · No works yet</p>
         )}
       </div>
