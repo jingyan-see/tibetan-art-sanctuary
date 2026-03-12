@@ -1,0 +1,74 @@
+[
+  {
+    "id": "manjushri-1",
+    "name": "文殊菩萨",
+    "nameEn": "Manjushri Bodhisattva",
+    "buddha": "manjushri",
+    "type": "large",
+    "typeCn": "大型唐卡",
+    "image": "t001.jpg",
+    "size": "90cm × 120cm",
+    "year": "2023",
+    "description": "This exquisite thangka depicts Manjushri, the Bodhisattva of Wisdom, rendered in traditional Tibetan painting techniques with mineral pigments and gold leaf. The intricate details reflect months of devoted craftsmanship."
+  },
+  {
+    "id": "amitabha-1",
+    "name": "阿弥陀佛",
+    "nameEn": "Amitabha Buddha",
+    "buddha": "amitabha",
+    "type": "large",
+    "typeCn": "大型唐卡",
+    "image": "t002.jpg",
+    "size": "80cm × 110cm",
+    "year": "2022",
+    "description": "A magnificent depiction of Amitabha Buddha in deep meditation, painted with traditional mineral pigments on cotton canvas. The warm red and gold tones evoke the Pure Land of Sukhavati."
+  },
+  {
+    "id": "vairocana-1",
+    "name": "大日如来",
+    "nameEn": "Vairocana Buddha",
+    "buddha": "vairocana",
+    "type": "large",
+    "typeCn": "大型唐卡",
+    "image": "t003.jpg",
+    "size": "100cm × 140cm",
+    "year": "2023",
+    "description": "The supreme Vairocana Buddha depicted in the cosmic mudra of meditation, surrounded by an elaborate mandala. This large-format thangka represents the cosmic Buddha at the center of the Buddhist universe."
+  },
+  {
+    "id": "acala-1",
+    "name": "不动明王",
+    "nameEn": "Acala Vidyaraja",
+    "buddha": "acala",
+    "type": "large",
+    "typeCn": "大型唐卡",
+    "image": "t004.jpg",
+    "size": "70cm × 100cm",
+    "year": "2024",
+    "description": "A powerful depiction of Acala, the Immovable Wisdom King, wreathed in flames of purification. The dynamic composition captures the fierce compassion of this wrathful deity."
+  },
+  {
+    "id": "mandala-1",
+    "name": "八吉祥曼荼罗",
+    "nameEn": "Eight Auspicious Symbols Mandala",
+    "buddha": "multiple",
+    "type": "large",
+    "typeCn": "大型唐卡",
+    "image": "t005.jpg",
+    "size": "85cm × 85cm",
+    "year": "2024",
+    "description": "A stunning mandala featuring the Eight Auspicious Symbols of Tibetan Buddhism, with guardian deities in each corner. This ceremonial thangka is painted with pure gold and mineral pigments."
+  },
+  {
+    "id": "wearable-avalokitesvara",
+    "name": "佩戴观音菩萨",
+    "nameEn": "Wearable Avalokitesvara",
+    "buddha": "avalokitesvara",
+    "type": "wearable",
+    "typeCn": "佩戴唐卡",
+    "image": "t006.jpg",
+    "size": "4cm × 5cm",
+    "year": "2024",
+    "description": "A miniature thangka pendant depicting Avalokitesvara (Guanyin), crafted with extraordinary precision. Designed to be worn as a sacred amulet, offering the protection and compassion of the Bodhisattva."
+  }
+]
