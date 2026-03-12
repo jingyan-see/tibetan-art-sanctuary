@@ -25,8 +25,8 @@ const fadeUp = {
 const Index = () => {
   return (
     <div className="pt-14">
-      {/* Top pattern border */}
-      <TibetanPatternDivider className="h-10 md:h-14" />
+      {/* Top pattern divider */}
+      <TibetanPatternDivider />
 
       {/* HERO SECTION */}
       <section className="min-h-[85vh] flex flex-col items-center justify-center px-6 py-20 relative overflow-hidden">
@@ -91,8 +91,7 @@ const Index = () => {
         </OrnateFrame>
       </section>
 
-      {/* Pattern divider */}
-      <TibetanPatternDivider className="h-10 md:h-14" />
+      <TibetanPatternDivider />
 
       {/* FEATURED WORKS — Carousel */}
       <section className="py-16 relative">
@@ -112,8 +111,7 @@ const Index = () => {
         <ThangkaCarousel />
       </section>
 
-      {/* Pattern divider */}
-      <TibetanPatternDivider className="h-10 md:h-14" />
+      <TibetanPatternDivider />
 
       {/* FIND YOUR BUDDHA */}
       <div className="relative">
@@ -124,7 +122,7 @@ const Index = () => {
       </div>
 
       {/* FOOTER */}
-      <TibetanPatternDivider className="h-8 md:h-12" />
+      <TibetanPatternDivider />
       <footer className="py-12 text-center text-xs text-muted-foreground relative">
         <TibetanLotus className="w-16 mx-auto text-accent/20 mb-4" />
         <p>© 2024 扎西·唐卡艺术 Tashi Thangka Art Studio</p>
