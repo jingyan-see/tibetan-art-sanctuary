@@ -39,7 +39,7 @@ const FindBuddhaSection = () => {
             className="flex items-center justify-center group"
           >
             <div
-              className={`w-14 h-14 flex items-center justify-center transition-all duration-300 ${
+              className={`w-20 h-20 flex items-center justify-center transition-all duration-300 ${
                 selected === z.animal
                   ? "text-primary-foreground scale-110"
                   : "text-foreground hover:scale-105"
