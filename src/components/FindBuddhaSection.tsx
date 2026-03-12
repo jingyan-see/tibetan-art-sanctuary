@@ -31,7 +31,7 @@ const FindBuddhaSection = () => {
       <p className="text-center text-sm text-muted-foreground mb-10">Find Your Guardian Buddha</p>
 
       {/* Clover-shaped zodiac buttons */}
-      <div className="grid grid-cols-4 md:grid-cols-6 gap-4 max-w-md mx-auto mb-10">
+      <div className="grid grid-cols-4 md:grid-cols-6 gap-5 max-w-lg mx-auto mb-10">
         {zodiac.map((z) => (
           <button
             key={z.animal}
