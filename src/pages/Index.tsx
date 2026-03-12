@@ -25,24 +25,26 @@ const fadeUp = {
 const Index = () => {
   return (
     <div className="pt-16">
-      {/* ARTIST HERO IMAGE with gradient overlay */}
-      <section className="relative w-full h-[60vh] md:h-[70vh] overflow-hidden">
+      {/* ARTIST HERO IMAGE — top clear, fading to transparent at bottom */}
+      <section className="relative w-full h-[65vh] md:h-[75vh] overflow-hidden -mt-16">
         <img
           src={artistWorking}
           alt="唐卡画师创作中"
-          className="w-full h-full object-cover object-center"
+          className="w-full h-full object-cover object-top"
         />
-        {/* Gradient overlays for smooth blending */}
-        <div className="absolute inset-0 bg-gradient-to-b from-background/60 via-transparent to-background" />
-        <div className="absolute inset-0 bg-gradient-to-r from-background/30 via-transparent to-background/30" />
+        {/* Top: very subtle darkening for navbar readability */}
+        <div className="absolute inset-x-0 top-0 h-24 bg-gradient-to-b from-black/20 to-transparent" />
+        {/* Bottom: fade into page background — the key effect */}
+        <div className="absolute inset-x-0 bottom-0 h-[45%] bg-gradient-to-t from-background via-background/80 to-transparent" />
+        {/* Slight side vignette */}
+        <div className="absolute inset-0 bg-gradient-to-r from-background/20 via-transparent to-background/20" />
         {/* Text overlay */}
-        <div className="absolute inset-0 flex flex-col items-center justify-center text-center px-6">
+        <div className="absolute inset-0 flex flex-col items-center justify-end pb-[20%] text-center px-6">
           <motion.h1
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
-            className="font-display text-4xl md:text-6xl text-primary-foreground drop-shadow-lg mb-3"
-            style={{ textShadow: "0 2px 20px rgba(0,0,0,0.5)" }}
+            className="font-display text-4xl md:text-6xl text-foreground mb-3"
           >
             扎西·唐卡艺术
           </motion.h1>
@@ -50,15 +52,13 @@ const Index = () => {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 0.3, duration: 0.8 }}
-            className="text-lg md:text-xl text-primary-foreground/90 drop-shadow-md"
-            style={{ fontFamily: "var(--font-display-en)", textShadow: "0 1px 10px rgba(0,0,0,0.4)" }}
+            className="text-lg md:text-xl text-muted-foreground"
+            style={{ fontFamily: "var(--font-display-en)" }}
           >
             Tashi · Thangka Art Studio
           </motion.p>
         </div>
       </section>
-
-      <TibetanPatternDivider />
 
       {/* ARTIST INTRO */}
       <section className="py-16 px-6 relative overflow-hidden">
