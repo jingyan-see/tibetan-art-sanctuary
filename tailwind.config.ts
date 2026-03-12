@@ -58,6 +58,8 @@ export default {
           "cream-light": "hsl(var(--cream-light))",
           blue: "hsl(var(--dark-blue))",
           brown: "hsl(var(--dark-brown))",
+          teal: "hsl(var(--teal))",
+          terracotta: "hsl(var(--terracotta))",
         },
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
