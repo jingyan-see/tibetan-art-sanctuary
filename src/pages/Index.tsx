@@ -25,8 +25,8 @@ const fadeUp = {
 const Index = () => {
   return (
     <div className="pt-14">
-      {/* Top pattern border */}
-      <TibetanPatternDivider className="h-10 md:h-14" />
+      {/* Top pattern divider */}
+      <TibetanPatternDivider />
 
       {/* HERO SECTION */}
       <section className="min-h-[85vh] flex flex-col items-center justify-center px-6 py-20 relative overflow-hidden">
