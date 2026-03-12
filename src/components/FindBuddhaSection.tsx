@@ -19,7 +19,7 @@ const FindBuddhaSection = () => {
     : [];
 
   return (
-    <section className="px-6 py-20 md:py-28 max-w-4xl mx-auto">
+    <section className="px-6 py-20 md:py-28 max-w-4xl mx-auto relative">
       {/* Section heading */}
       <div className="text-center mb-14">
         <motion.h2
@@ -47,35 +47,60 @@ const FindBuddhaSection = () => {
       </div>
 
       {/* Zodiac grid — refined clover buttons */}
-      <div className="grid grid-cols-4 md:grid-cols-6 gap-6 max-w-2xl mx-auto mb-12 px-4">
-        {zodiac.map((z) => (
-          <button
+      <div className="grid grid-cols-4 md:grid-cols-6 gap-x-8 gap-y-6 max-w-2xl mx-auto mb-12 px-4">
+        {zodiac.map((z, i) => (
+          <motion.button
             key={z.animal}
             onClick={() => setSelected(z.animal)}
-            className="flex items-center justify-center group"
+            initial={{ opacity: 0, y: 16 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ delay: i * 0.04, duration: 0.4 }}
+            className="flex flex-col items-center justify-center gap-1.5 group"
           >
             <motion.div
-              whileHover={{ scale: 1.08 }}
-              whileTap={{ scale: 0.95 }}
-              className={`w-20 h-20 flex items-center justify-center transition-all duration-400 ${
-                selected === z.animal
-                  ? "text-primary-foreground"
-                  : "text-foreground/70 hover:text-foreground"
-              }`}
-              style={{
-                clipPath:
-                  "path('M40 3 C49 3 57 14 57 26 C69 26 77 31 77 40 C77 49 69 54 57 54 C57 66 49 77 40 77 C31 77 23 66 23 54 C11 54 3 49 3 40 C3 31 11 26 23 26 C23 14 31 3 40 3Z')",
-                background: selected === z.animal
-                  ? "hsl(var(--primary))"
-                  : "hsl(var(--card))",
-                boxShadow: selected === z.animal
-                  ? "0 0 20px hsl(var(--primary) / 0.3)"
-                  : "none",
-              }}
+              whileHover={{ scale: 1.12, rotate: 3 }}
+              whileTap={{ scale: 0.92 }}
+              className="relative w-[72px] h-[72px] flex items-center justify-center transition-all duration-500"
             >
-              <span className="text-lg font-display">{z.animalCn}</span>
+              {/* Clover shape */}
+              <div
+                className="absolute inset-0 transition-all duration-500"
+                style={{
+                  clipPath:
+                    "path('M36 2 C44 2 51 12 51 23 C62 23 70 28 70 36 C70 44 62 49 51 49 C51 60 44 70 36 70 C28 70 21 60 21 49 C10 49 2 44 2 36 C2 28 10 23 21 23 C21 12 28 2 36 2Z')",
+                  background: selected === z.animal
+                    ? "hsl(var(--primary))"
+                    : "hsl(var(--border) / 0.6)",
+                  boxShadow: selected === z.animal
+                    ? "0 4px 24px hsl(var(--primary) / 0.35), inset 0 1px 0 hsl(var(--primary-foreground) / 0.1)"
+                    : "0 2px 8px hsl(var(--foreground) / 0.04)",
+                }}
+              />
+              {/* Inner glow for selected */}
+              {selected === z.animal && (
+                <motion.div
+                  layoutId="zodiac-glow"
+                  className="absolute inset-[-4px]"
+                  style={{
+                    clipPath:
+                      "path('M40 0 C49 0 57 11 57 24 C68 24 78 29 78 40 C78 51 68 56 57 56 C57 69 49 80 40 80 C31 80 23 69 23 56 C12 56 2 51 2 40 C2 29 12 24 23 24 C23 11 31 0 40 0Z')",
+                    background: "hsl(var(--primary) / 0.12)",
+                  }}
+                  transition={{ type: "spring", stiffness: 300, damping: 30 }}
+                />
+              )}
+              <span
+                className={`relative z-10 text-lg font-display transition-colors duration-300 ${
+                  selected === z.animal
+                    ? "text-primary-foreground"
+                    : "text-foreground/60 group-hover:text-foreground"
+                }`}
+              >
+                {z.animalCn}
+              </span>
             </motion.div>
-          </button>
+          </motion.button>
         ))}
       </div>
 
