@@ -114,7 +114,34 @@ const FindBuddhaSection = () => {
             transition={{ duration: 0.5, ease: [0.25, 0.1, 0.25, 1] }}
             className="text-center"
           >
-            <div className="p-10 max-w-sm mx-auto bg-card/50 backdrop-blur-sm rounded-sm border border-accent/20">
+            {/* 结果卡片 - 四角祥云装饰 */}
+            <div className="relative p-10 max-w-sm mx-auto bg-card/50 backdrop-blur-sm rounded-sm">
+              {/* 四角祥云纹装饰 */}
+              <svg className="absolute top-2 left-2 w-8 h-8 text-accent/40" viewBox="0 0 32 32" fill="none">
+                <path d="M28 20C28 20 24 18 22 14C20 10 24 6 28 4" stroke="currentColor" strokeWidth="1.2" fill="none" strokeLinecap="round"/>
+                <path d="M20 28C20 28 18 24 14 22C10 20 6 24 4 28" stroke="currentColor" strokeWidth="1.2" fill="none" strokeLinecap="round"/>
+                <path d="M26 26C26 26 22 22 18 20" stroke="currentColor" strokeWidth="0.8" fill="none" opacity="0.6" strokeLinecap="round"/>
+              </svg>
+              <svg className="absolute top-2 right-2 w-8 h-8 text-accent/40 rotate-90" viewBox="0 0 32 32" fill="none">
+                <path d="M28 20C28 20 24 18 22 14C20 10 24 6 28 4" stroke="currentColor" strokeWidth="1.2" fill="none" strokeLinecap="round"/>
+                <path d="M20 28C20 28 18 24 14 22C10 20 6 24 4 28" stroke="currentColor" strokeWidth="1.2" fill="none" strokeLinecap="round"/>
+                <path d="M26 26C26 26 22 22 18 20" stroke="currentColor" strokeWidth="0.8" fill="none" opacity="0.6" strokeLinecap="round"/>
+              </svg>
+              <svg className="absolute bottom-2 left-2 w-8 h-8 text-accent/40 -rotate-90" viewBox="0 0 32 32" fill="none">
+                <path d="M28 20C28 20 24 18 22 14C20 10 24 6 28 4" stroke="currentColor" strokeWidth="1.2" fill="none" strokeLinecap="round"/>
+                <path d="M20 28C20 28 18 24 14 22C10 20 6 24 4 28" stroke="currentColor" strokeWidth="1.2" fill="none" strokeLinecap="round"/>
+                <path d="M26 26C26 26 22 22 18 20" stroke="currentColor" strokeWidth="0.8" fill="none" opacity="0.6" strokeLinecap="round"/>
+              </svg>
+              <svg className="absolute bottom-2 right-2 w-8 h-8 text-accent/40 rotate-180" viewBox="0 0 32 32" fill="none">
+                <path d="M28 20C28 20 24 18 22 14C20 10 24 6 28 4" stroke="currentColor" strokeWidth="1.2" fill="none" strokeLinecap="round"/>
+                <path d="M20 28C20 28 18 24 14 22C10 20 6 24 4 28" stroke="currentColor" strokeWidth="1.2" fill="none" strokeLinecap="round"/>
+                <path d="M26 26C26 26 22 22 18 20" stroke="currentColor" strokeWidth="0.8" fill="none" opacity="0.6" strokeLinecap="round"/>
+              </svg>
+
+              {/* 细线边框 */}
+              <div className="absolute inset-0 border border-accent/20 rounded-sm pointer-events-none" />
+              <div className="absolute inset-1 border border-accent/10 rounded-sm pointer-events-none" />
+
               <p className="text-[11px] text-muted-foreground/60 tracking-[0.2em] mb-3">
                 您的守护佛 · Your Guardian Buddha
               </p>
