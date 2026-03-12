@@ -17,11 +17,11 @@ const Navbar = () => {
           <Link
             key={item.path}
             to={item.path}
-            className={`flex flex-col items-center transition-colors duration-300 hover:text-white whitespace-nowrap ${
+            className={`flex flex-col items-center transition-colors duration-300 hover:text-primary whitespace-nowrap ${
               location.pathname === item.path ||
               (item.path !== "/" && location.pathname.startsWith(item.path.replace("/large", "")))
-                ? "text-white"
-                : "text-white/70"
+                ? "text-primary"
+                : "text-foreground"
             }`}
           >
             <span className="font-display text-base sm:text-lg tracking-wider">{item.labelCn}</span>

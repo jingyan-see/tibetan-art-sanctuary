@@ -55,7 +55,7 @@ const FindBuddhaSection = () => {
                   : "none",
               }}
             >
-              <span className="text-xl">{z.emoji}</span>
+              <span className="text-2xl">{z.emoji}</span>
             </div>
           </button>
         ))}

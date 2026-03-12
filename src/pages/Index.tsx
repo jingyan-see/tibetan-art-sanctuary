@@ -140,7 +140,7 @@ const Index = () => {
       </div>
 
       {/* FOOTER */}
-      <TibetanPatternDivider />
+      
       <footer className="py-12 text-center text-xs text-muted-foreground relative">
         <TibetanLotus className="w-16 mx-auto text-accent/20 mb-4" />
         <p>© 2024 扎西·唐卡艺术 Tashi Thangka Art Studio</p>
