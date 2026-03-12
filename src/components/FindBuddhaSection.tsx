@@ -30,19 +30,33 @@ const FindBuddhaSection = () => {
       </motion.h2>
       <p className="text-center text-sm text-muted-foreground mb-10">Find Your Guardian Buddha</p>
 
-      <div className="grid grid-cols-4 md:grid-cols-6 gap-3 max-w-lg mx-auto mb-10">
+      {/* Clover-shaped zodiac buttons */}
+      <div className="grid grid-cols-4 md:grid-cols-6 gap-4 max-w-md mx-auto mb-10">
         {zodiac.map((z) => (
           <button
             key={z.animal}
             onClick={() => setSelected(z.animal)}
-            className={`py-3 px-2 rounded-sm text-center transition-all duration-300 border ${
-              selected === z.animal
-                ? "bg-primary text-primary-foreground border-primary"
-                : "bg-card border-border hover:border-accent text-foreground"
-            }`}
+            className="flex items-center justify-center group"
           >
-            <div className="text-xl">{z.emoji}</div>
-            <div className="text-xs mt-1">{z.animalCn}</div>
+            <div
+              className={`w-14 h-14 flex items-center justify-center transition-all duration-300 ${
+                selected === z.animal
+                  ? "text-primary-foreground scale-110"
+                  : "text-foreground hover:scale-105"
+              }`}
+              style={{
+                clipPath:
+                  "path('M28 2 C34 2 40 10 40 18 C48 18 54 22 54 28 C54 34 48 38 40 38 C40 46 34 54 28 54 C22 54 16 46 16 38 C8 38 2 34 2 28 C2 22 8 18 16 18 C16 10 22 2 28 2Z')",
+                background: selected === z.animal
+                  ? "hsl(var(--primary))"
+                  : "hsl(var(--card))",
+                boxShadow: selected === z.animal
+                  ? "0 0 12px hsl(var(--primary) / 0.4)"
+                  : "none",
+              }}
+            >
+              <span className="text-xl">{z.emoji}</span>
+            </div>
           </button>
         ))}
       </div>
