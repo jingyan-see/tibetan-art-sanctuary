@@ -129,7 +129,7 @@ const Index = () => {
         <ThangkaCarousel />
       </section>
 
-      <TibetanPatternDivider />
+
 
       {/* FIND YOUR BUDDHA */}
       <div className="relative">
