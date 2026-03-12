@@ -1,13 +1,15 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
-import { deities, thangkas } from "@/data/thangkaData";
+import { useThangkas, useBuddhas } from "@/hooks/useData";
 import ThangkaCard from "@/components/ThangkaCard";
 import { Search } from "lucide-react";
 
 const DeityCatalogPage = () => {
   const [search, setSearch] = useState("");
   const [selectedDeity, setSelectedDeity] = useState<string | null>(null);
+  const { data: deities = [] } = useBuddhas();
+  const { data: thangkas = [] } = useThangkas();
 
   const filteredDeities = deities.filter(
     (d) =>
@@ -35,7 +37,6 @@ const DeityCatalogPage = () => {
         </motion.h1>
         <p className="text-center text-sm text-muted-foreground mb-10">Deity Catalog</p>
 
-        {/* Search */}
         <div className="relative max-w-sm mx-auto mb-12">
           <Search size={16} className="absolute left-3 top-1/2 -translate-y-1/2 text-muted-foreground" />
           <input
@@ -50,7 +51,6 @@ const DeityCatalogPage = () => {
           />
         </div>
 
-        {/* Deity list */}
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-12">
           {filteredDeities.map((d, i) => (
             <motion.button
@@ -76,12 +76,8 @@ const DeityCatalogPage = () => {
           ))}
         </div>
 
-        {/* Selected deity thangkas */}
         {selectedDeity && (
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-          >
+          <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }}>
             <h2 className="font-display text-xl text-center text-foreground mb-8">
               {selectedDeity} 相关唐卡
             </h2>

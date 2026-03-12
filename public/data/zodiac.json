@@ -1,0 +1,14 @@
+[
+  { "animal": "Rat", "animalCn": "鼠", "emoji": "🐀", "buddhaId": "avalokitesvara", "buddhaCn": "千手观音菩萨", "buddhaEn": "Avalokitesvara (Thousand-Armed)" },
+  { "animal": "Ox", "animalCn": "牛", "emoji": "🐂", "buddhaId": "akashagarbha", "buddhaCn": "虚空藏菩萨", "buddhaEn": "Akashagarbha Bodhisattva" },
+  { "animal": "Tiger", "animalCn": "虎", "emoji": "🐅", "buddhaId": "akashagarbha", "buddhaCn": "虚空藏菩萨", "buddhaEn": "Akashagarbha Bodhisattva" },
+  { "animal": "Rabbit", "animalCn": "兔", "emoji": "🐇", "buddhaId": "manjushri", "buddhaCn": "文殊菩萨", "buddhaEn": "Manjushri Bodhisattva" },
+  { "animal": "Dragon", "animalCn": "龙", "emoji": "🐉", "buddhaId": "samantabhadra", "buddhaCn": "普贤菩萨", "buddhaEn": "Samantabhadra Bodhisattva" },
+  { "animal": "Snake", "animalCn": "蛇", "emoji": "🐍", "buddhaId": "samantabhadra", "buddhaCn": "普贤菩萨", "buddhaEn": "Samantabhadra Bodhisattva" },
+  { "animal": "Horse", "animalCn": "马", "emoji": "🐴", "buddhaId": "mahasthamaprapta", "buddhaCn": "大势至菩萨", "buddhaEn": "Mahasthamaprapta Bodhisattva" },
+  { "animal": "Goat", "animalCn": "羊", "emoji": "🐐", "buddhaId": "vairocana", "buddhaCn": "大日如来", "buddhaEn": "Vairocana Buddha" },
+  { "animal": "Monkey", "animalCn": "猴", "emoji": "🐒", "buddhaId": "vairocana", "buddhaCn": "大日如来", "buddhaEn": "Vairocana Buddha" },
+  { "animal": "Rooster", "animalCn": "鸡", "emoji": "🐓", "buddhaId": "acala", "buddhaCn": "不动明王", "buddhaEn": "Acala Vidyaraja" },
+  { "animal": "Dog", "animalCn": "狗", "emoji": "🐕", "buddhaId": "amitabha", "buddhaCn": "阿弥陀佛", "buddhaEn": "Amitabha Buddha" },
+  { "animal": "Pig", "animalCn": "猪", "emoji": "🐖", "buddhaId": "amitabha", "buddhaCn": "阿弥陀佛", "buddhaEn": "Amitabha Buddha" }
+]

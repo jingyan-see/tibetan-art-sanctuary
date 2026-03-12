@@ -1,0 +1,83 @@
+[
+  {
+    "id": "manjushri",
+    "name": "文殊菩萨",
+    "nameEn": "Manjushri",
+    "description": "Bodhisattva of Wisdom",
+    "introduction": "Manjushri is the embodiment of prajna (transcendent wisdom) of all the Buddhas. He is often depicted wielding a flaming sword that cuts through ignorance.",
+    "symbolism": "Manjushri represents the perfection of wisdom, discernment, and enlightened intelligence. His sword symbolizes the ability to cut through delusion.",
+    "mantra": "Om A Ra Pa Ca Na Dhih (嗡 阿 若 巴 佳 那 地)"
+  },
+  {
+    "id": "amitabha",
+    "name": "阿弥陀佛",
+    "nameEn": "Amitabha",
+    "description": "Buddha of Infinite Light",
+    "introduction": "Amitabha is the Buddha of Infinite Light, presiding over the Western Pure Land (Sukhavati). He is one of the Five Dhyani Buddhas.",
+    "symbolism": "Amitabha represents infinite compassion and the promise of rebirth in the Pure Land for those who call upon his name with sincere devotion.",
+    "mantra": "Namo Amitabha Buddha (南无阿弥陀佛)"
+  },
+  {
+    "id": "vairocana",
+    "name": "大日如来",
+    "nameEn": "Vairocana",
+    "description": "The Cosmic Buddha",
+    "introduction": "Vairocana is the cosmic or primordial Buddha, representing the dharma body (dharmakaya) of the historical Buddha.",
+    "symbolism": "Vairocana embodies the wisdom of the dharmadhatu — the wisdom of universal law. He represents the all-encompassing void and unity of all things.",
+    "mantra": "Om Vairocana Hum (嗡 毗卢遮那 吽)"
+  },
+  {
+    "id": "acala",
+    "name": "不动明王",
+    "nameEn": "Acala",
+    "description": "Immovable Wisdom King",
+    "introduction": "Acala (Fudō Myōō) is a wrathful deity who serves as a protector and remover of obstacles on the path to enlightenment.",
+    "symbolism": "His fierce appearance represents unwavering determination to destroy evil and protect the dharma. The flames symbolize purification of all defilements.",
+    "mantra": "Namah Samantavajranam Chanda Maharoshana (南无三满多 伐折罗 赧 含)"
+  },
+  {
+    "id": "avalokitesvara",
+    "name": "观世音菩萨",
+    "nameEn": "Avalokitesvara",
+    "description": "Bodhisattva of Compassion",
+    "introduction": "Avalokitesvara is the Bodhisattva of Compassion, known as Guanyin in Chinese Buddhism. They embody the compassion of all Buddhas.",
+    "symbolism": "Avalokitesvara represents infinite compassion and the willingness to help all sentient beings. The name means 'Lord who looks down' on the world with compassion.",
+    "mantra": "Om Mani Padme Hum (嗡嘛呢叭咪吽)"
+  },
+  {
+    "id": "samantabhadra",
+    "name": "普贤菩萨",
+    "nameEn": "Samantabhadra",
+    "description": "Bodhisattva of Universal Virtue",
+    "introduction": "Samantabhadra is the Bodhisattva of Universal Virtue, representing the practice and meditation of all Buddhas.",
+    "symbolism": "He symbolizes the completion of all vows and the embodiment of great conduct, often depicted riding a six-tusked white elephant.",
+    "mantra": "Om Samantabhadra Hum (嗡 三曼多跋陀罗 吽)"
+  },
+  {
+    "id": "akashagarbha",
+    "name": "虚空藏菩萨",
+    "nameEn": "Akashagarbha",
+    "description": "Bodhisattva of Boundless Space",
+    "introduction": "Akashagarbha is the Bodhisattva whose wisdom and merit are as vast and boundless as space itself.",
+    "symbolism": "He represents the treasury of wisdom and blessings that is as infinite as space, offering guidance to those seeking knowledge.",
+    "mantra": "Namo Akashagarbha Bodhisattva (南无虚空藏菩萨)"
+  },
+  {
+    "id": "mahasthamaprapta",
+    "name": "大势至菩萨",
+    "nameEn": "Mahasthamaprapta",
+    "description": "Bodhisattva of Great Strength",
+    "introduction": "Mahasthamaprapta represents the power of wisdom and is one of the three deities of the Western Pure Land alongside Amitabha and Avalokitesvara.",
+    "symbolism": "He symbolizes the power of wisdom that illuminates all beings, guiding them towards enlightenment with unstoppable force.",
+    "mantra": "Namo Mahasthamaprapta Bodhisattva (南无大势至菩萨)"
+  },
+  {
+    "id": "multiple",
+    "name": "诸佛菩萨",
+    "nameEn": "Multiple Deities",
+    "description": "Various Buddhas and Bodhisattvas",
+    "introduction": "This mandala contains the eight auspicious symbols (Ashtamangala) which represent the offerings made by celestial beings to Shakyamuni Buddha upon his enlightenment.",
+    "symbolism": "The eight symbols — parasol, golden fishes, treasure vase, lotus, conch shell, endless knot, victory banner, and dharma wheel — each represent aspects of the Buddhist teachings.",
+    "mantra": "Om Mani Padme Hum (嗡嘛呢叭咪吽)"
+  }
+]
