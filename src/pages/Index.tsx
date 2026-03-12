@@ -7,6 +7,13 @@ import thangkaWearable from "@/assets/thangka-wearable-1.jpg";
 import SectionDivider from "@/components/SectionDivider";
 import OrnateFrame from "@/components/OrnateFrame";
 import FindBuddhaSection from "@/components/FindBuddhaSection";
+import {
+  TibetanCloud,
+  TibetanLotus,
+  TibetanKnot,
+  TibetanBorderPattern,
+  DharmaWheel,
+} from "@/components/TibetanDecorations";
 
 const fadeUp = {
   hidden: { opacity: 0, y: 30 },
@@ -19,10 +26,32 @@ const fadeUp = {
 
 const Index = () => {
   return (
-    <div className="pt-16">
+    <div className="pt-14">
       {/* HERO SECTION */}
-      <section className="min-h-[90vh] flex flex-col items-center justify-center px-6 py-20 relative">
-        <OrnateFrame className="p-12 md:p-20 text-center max-w-2xl mx-auto">
+      <section className="min-h-[90vh] flex flex-col items-center justify-center px-6 py-20 relative overflow-hidden">
+        {/* Decorative background elements */}
+        <TibetanCloud className="absolute top-16 left-4 w-32 text-accent/20 rotate-[-5deg]" />
+        <TibetanCloud className="absolute top-24 right-8 w-28 text-accent/15 rotate-[8deg] scale-x-[-1]" />
+        <TibetanCloud className="absolute bottom-32 left-10 w-24 text-accent/10 rotate-[3deg]" />
+        <TibetanCloud className="absolute bottom-20 right-4 w-36 text-accent/15 rotate-[-3deg]" />
+
+        <DharmaWheel className="absolute top-20 right-12 w-20 text-accent/10 animate-[spin_60s_linear_infinite]" />
+        <DharmaWheel className="absolute bottom-24 left-8 w-16 text-accent/8 animate-[spin_80s_linear_infinite_reverse]" />
+
+        <TibetanKnot className="absolute top-40 left-6 w-14 text-primary/10" />
+        <TibetanKnot className="absolute bottom-40 right-10 w-12 text-primary/8" />
+
+        <TibetanLotus className="absolute bottom-12 left-1/2 -translate-x-1/2 w-40 text-accent/10" />
+
+        {/* Top decorative border */}
+        <div className="absolute top-14 left-0 right-0">
+          <TibetanBorderPattern className="w-full h-5 text-accent/25" />
+        </div>
+
+        <OrnateFrame className="p-12 md:p-20 text-center max-w-2xl mx-auto relative z-10">
+          {/* Inner lotus decoration */}
+          <TibetanLotus className="absolute top-2 left-1/2 -translate-x-1/2 w-20 text-accent/20" />
+
           <motion.div
             initial="hidden"
             animate="visible"
@@ -30,7 +59,7 @@ const Index = () => {
             custom={0}
             className="flex justify-center mb-8"
           >
-            <div className="w-40 h-40 rounded-full overflow-hidden ornate-border">
+            <div className="w-40 h-40 rounded-full overflow-hidden ornate-border relative">
               <img
                 src={artistPortrait}
                 alt="Thangka Artist"
@@ -86,13 +115,20 @@ const Index = () => {
               <span>tashi@thangka-art.com</span>
             </div>
           </motion.div>
+
+          {/* Bottom lotus decoration */}
+          <TibetanLotus className="absolute bottom-2 left-1/2 -translate-x-1/2 w-20 text-accent/20 rotate-180" />
         </OrnateFrame>
       </section>
 
       <SectionDivider />
 
       {/* FEATURED WORKS SECTION */}
-      <section className="px-6 py-16 max-w-5xl mx-auto">
+      <section className="px-6 py-16 max-w-5xl mx-auto relative">
+        {/* Decorative clouds */}
+        <TibetanCloud className="absolute top-4 left-0 w-24 text-accent/15" />
+        <TibetanCloud className="absolute top-8 right-0 w-20 text-accent/10 scale-x-[-1]" />
+
         <motion.h2
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
@@ -101,7 +137,12 @@ const Index = () => {
         >
           唐卡作品
         </motion.h2>
-        <p className="text-center text-sm text-muted-foreground mb-12">Thangka Works</p>
+        <p className="text-center text-sm text-muted-foreground mb-4">Thangka Works</p>
+
+        {/* Decorative border under title */}
+        <div className="max-w-xs mx-auto mb-12">
+          <TibetanBorderPattern className="w-full h-4 text-accent/30" />
+        </div>
 
         <div className="grid md:grid-cols-2 gap-8">
           {/* Large Thangka */}
@@ -151,10 +192,17 @@ const Index = () => {
       <SectionDivider />
 
       {/* FIND YOUR BUDDHA */}
-      <FindBuddhaSection />
+      <div className="relative">
+        <TibetanCloud className="absolute top-8 left-6 w-28 text-accent/12" />
+        <TibetanCloud className="absolute top-12 right-4 w-24 text-accent/10 scale-x-[-1]" />
+        <TibetanKnot className="absolute bottom-8 right-8 w-10 text-primary/8" />
+        <FindBuddhaSection />
+      </div>
 
       {/* FOOTER */}
-      <footer className="py-12 text-center text-xs text-muted-foreground border-t border-border">
+      <footer className="py-12 text-center text-xs text-muted-foreground border-t border-border relative">
+        <TibetanBorderPattern className="absolute top-0 left-0 right-0 h-3 text-accent/20" />
+        <TibetanLotus className="w-16 mx-auto text-accent/20 mb-4" />
         <p>© 2024 扎西·唐卡艺术 Tashi Thangka Art Studio</p>
         <p className="mt-1">传承 · 虔诚 · 艺术</p>
       </footer>
