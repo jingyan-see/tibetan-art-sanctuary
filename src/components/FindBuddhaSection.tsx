@@ -46,7 +46,7 @@ const FindBuddhaSection = () => {
               }`}
               style={{
                 clipPath:
-                  "path('M28 2 C34 2 40 10 40 18 C48 18 54 22 54 28 C54 34 48 38 40 38 C40 46 34 54 28 54 C22 54 16 46 16 38 C8 38 2 34 2 28 C2 22 8 18 16 18 C16 10 22 2 28 2Z')",
+                  "path('M40 3 C49 3 57 14 57 26 C69 26 77 31 77 40 C77 49 69 54 57 54 C57 66 49 77 40 77 C31 77 23 66 23 54 C11 54 3 49 3 40 C3 31 11 26 23 26 C23 14 31 3 40 3Z')",
                 background: selected === z.animal
                   ? "hsl(var(--primary))"
                   : "hsl(var(--card))",
