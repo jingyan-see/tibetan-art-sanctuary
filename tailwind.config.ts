@@ -14,8 +14,8 @@ export default {
     },
     extend: {
       fontFamily: {
-        display: ['Cormorant Garamond', 'Noto Serif SC', 'serif'],
-        body: ['Noto Serif SC', 'Cormorant Garamond', 'serif'],
+        display: ['Noto Serif SC', 'STSong', 'SimSun', 'serif'],
+        body: ['Noto Serif SC', 'STSong', 'SimSun', 'serif'],
       },
       colors: {
         border: "hsl(var(--border))",

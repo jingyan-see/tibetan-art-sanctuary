@@ -9,7 +9,7 @@
     "image": "t001.jpg",
     "size": "90cm × 120cm",
     "year": "2023",
-    "description": "This exquisite thangka depicts Manjushri, the Bodhisattva of Wisdom, rendered in traditional Tibetan painting techniques with mineral pigments and gold leaf. The intricate details reflect months of devoted craftsmanship."
+    "description": "此幅唐卡精绘文殊菩萨，采用传统藏式绘画技法，以天然矿物颜料与纯金描绘。文殊菩萨右手高举智慧之剑，左手持般若经卷，端坐于莲花宝座之上。背光以青金石蓝与朱砂红层层晕染，细节之处尽显数月虔诚之功。"
   },
   {
     "id": "amitabha-1",
@@ -21,7 +21,7 @@
     "image": "t002.jpg",
     "size": "80cm × 110cm",
     "year": "2022",
-    "description": "A magnificent depiction of Amitabha Buddha in deep meditation, painted with traditional mineral pigments on cotton canvas. The warm red and gold tones evoke the Pure Land of Sukhavati."
+    "description": "阿弥陀佛结跏趺坐于七宝莲台之上，双手结禅定印，面容慈悲安详。画面以朱红与赤金为主色调，呈现西方极乐世界的庄严殊胜。背景以天然矿物颜料层层渲染，历经数月绘制而成。"
   },
   {
     "id": "vairocana-1",
@@ -33,7 +33,7 @@
     "image": "t003.jpg",
     "size": "100cm × 140cm",
     "year": "2023",
-    "description": "The supreme Vairocana Buddha depicted in the cosmic mudra of meditation, surrounded by an elaborate mandala. This large-format thangka represents the cosmic Buddha at the center of the Buddhist universe."
+    "description": "大日如来结智拳印，端坐于须弥山顶的金刚宝座之上，周围环绕精密曼荼罗。此幅大尺寸唐卡以纯金与天然矿物颜料绘制，表现毗卢遮那佛作为法身佛的至高庄严，光明遍照三千大千世界。"
   },
   {
     "id": "acala-1",
@@ -45,7 +45,7 @@
     "image": "t004.jpg",
     "size": "70cm × 100cm",
     "year": "2024",
-    "description": "A powerful depiction of Acala, the Immovable Wisdom King, wreathed in flames of purification. The dynamic composition captures the fierce compassion of this wrathful deity."
+    "description": "不动明王身披烈焰光环，面容忿怒庄严，右手持降魔利剑，左手执金刚索。画面构图饱满而富有张力，以石青、石绿与朱砂等矿物颜料精工绘制，展现忿怒尊护法降伏障碍的大悲愿力。"
   },
   {
     "id": "mandala-1",
@@ -57,18 +57,66 @@
     "image": "t005.jpg",
     "size": "85cm × 85cm",
     "year": "2024",
-    "description": "A stunning mandala featuring the Eight Auspicious Symbols of Tibetan Buddhism, with guardian deities in each corner. This ceremonial thangka is painted with pure gold and mineral pigments."
+    "description": "此幅曼荼罗唐卡精绘八吉祥图案——宝伞、金鱼、宝瓶、莲花、右旋海螺、吉祥结、宝幢与法轮，四角安置护法天王。整幅作品以纯金线描与天然矿物颜料绘就，为殊胜庄严的法会供奉之用。"
   },
   {
     "id": "wearable-avalokitesvara",
-    "name": "佩戴观音菩萨",
-    "nameEn": "Wearable Avalokitesvara",
+    "name": "观音菩萨·佩戴唐卡",
+    "nameEn": "Wearable Avalokitesvara Thangka",
     "buddha": "avalokitesvara",
     "type": "wearable",
     "typeCn": "佩戴唐卡",
-    "image": "t006.jpg",
+    "image": "w001.jpg",
     "size": "4cm × 5cm",
     "year": "2024",
-    "description": "A miniature thangka pendant depicting Avalokitesvara (Guanyin), crafted with extraordinary precision. Designed to be worn as a sacred amulet, offering the protection and compassion of the Bodhisattva."
+    "description": "微型佩戴唐卡，精绘观世音菩萨（观音）圣像。以极细画笔在方寸之间重现传统唐卡全部细节，纯金外框镶嵌，可作为贴身护身符佩戴，随身感受菩萨慈悲加持。"
+  },
+  {
+    "id": "wearable-manjushri",
+    "name": "文殊菩萨·佩戴唐卡",
+    "nameEn": "Wearable Manjushri Thangka",
+    "buddha": "manjushri",
+    "type": "wearable",
+    "typeCn": "佩戴唐卡",
+    "image": "w002.jpg",
+    "size": "3.5cm × 4.5cm",
+    "year": "2024",
+    "description": "微型佩戴唐卡，精绘文殊菩萨手持智慧之剑。采用传统矿物颜料与纯金在毫厘之间呈现完整圣像，金质边框精工镶嵌，适合学子及求智慧者随身佩戴，祈愿开智增慧。"
+  },
+  {
+    "id": "wearable-amitabha",
+    "name": "阿弥陀佛·佩戴唐卡",
+    "nameEn": "Wearable Amitabha Thangka",
+    "buddha": "amitabha",
+    "type": "wearable",
+    "typeCn": "佩戴唐卡",
+    "image": "w003.jpg",
+    "size": "3.5cm × 4.5cm",
+    "year": "2024",
+    "description": "微型佩戴唐卡，精绘阿弥陀佛禅定圣像。以朱砂红与赤金为主色调，在方寸之间重现西方极乐净土的庄严殊胜。纯金边框镶嵌，可作为念佛修行者的随身护佑之物。"
+  },
+  {
+    "id": "wearable-vairocana",
+    "name": "大日如来·佩戴唐卡",
+    "nameEn": "Wearable Vairocana Thangka",
+    "buddha": "vairocana",
+    "type": "wearable",
+    "typeCn": "佩戴唐卡",
+    "image": "w004.jpg",
+    "size": "4cm × 5cm",
+    "year": "2024",
+    "description": "微型佩戴唐卡，精绘大日如来法身像。以白金色调为主，象征遍照法界的无量光明。极细笔触在毫厘之间展现完整的佛像与莲座细节，纯金框体精致典雅，适合日常佩戴供养。"
+  },
+  {
+    "id": "wearable-acala",
+    "name": "不动明王·佩戴唐卡",
+    "nameEn": "Wearable Acala Thangka",
+    "buddha": "acala",
+    "type": "wearable",
+    "typeCn": "佩戴唐卡",
+    "image": "w005.jpg",
+    "size": "3.5cm × 4.5cm",
+    "year": "2024",
+    "description": "微型佩戴唐卡，精绘不动明王忿怒护法像。烈焰光环与威猛法相在方寸之间纤毫毕现，以石青、朱砂等天然矿物颜料精工绘制。纯金外框镶嵌，据信可辟邪护身、降伏障碍。"
   }
 ]

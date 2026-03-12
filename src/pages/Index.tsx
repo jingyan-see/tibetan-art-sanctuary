@@ -138,7 +138,7 @@ const Index = () => {
             transition={{ duration: 0.6 }}
             className="font-display text-2xl md:text-3xl text-foreground tracking-wider mb-2"
           >
-            唐卡作品
+            唐卡精品
           </motion.h2>
           <motion.div
             initial={{ width: 0 }}

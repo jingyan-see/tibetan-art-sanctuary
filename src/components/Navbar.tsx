@@ -3,7 +3,8 @@ import { useState, useEffect } from "react";
 
 const navItems = [
   { path: "/", label: "Home", labelCn: "首页" },
-  { path: "/gallery/large", label: "Works", labelCn: "唐卡作品" },
+  { path: "/gallery/large", label: "Large Thangka", labelCn: "大型唐卡" },
+  { path: "/gallery/wearable", label: "Wearable", labelCn: "佩戴唐卡" },
   { path: "/deities", label: "Catalog", labelCn: "佛像图鉴" },
   { path: "/find-buddha", label: "Guardian", labelCn: "寻找守护佛" },
 ];
