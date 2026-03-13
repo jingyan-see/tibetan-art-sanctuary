@@ -6,6 +6,7 @@ import { ArrowLeft } from "lucide-react";
 
 const DeityGalleryPage = () => {
   const { deityId } = useParams<{ deityId: string }>();
+  const navigate = useNavigate();
   const { data: thangkas = [], isLoading } = useThangkas();
   const { data: deities = [] } = useBuddhas();
 
