@@ -28,7 +28,7 @@ const Index = () => {
         <motion.img
           src={artistWorking}
           alt="唐卡画师创作中"
-          className="w-full h-full object-cover object-[center_20%]"
+          className="w-full h-full object-cover object-bottom"
           initial={{ scale: 1.08 }}
           animate={{ scale: 1 }}
           transition={{ duration: 1.8, ease: [0.25, 0.1, 0.25, 1] }}
