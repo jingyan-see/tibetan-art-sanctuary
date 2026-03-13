@@ -20,12 +20,12 @@ const DeityGalleryPage = () => {
   return (
     <div className="pt-16 min-h-screen">
       <div className="px-6 py-16 max-w-5xl mx-auto">
-        <Link
-          to="/deities"
+        <button
+          onClick={() => navigate(-1)}
           className="inline-flex items-center gap-2 text-sm text-muted-foreground hover:text-primary mb-8"
         >
-          <ArrowLeft size={16} /> 返回图鉴 · Back to Catalog
-        </Link>
+          <ArrowLeft size={16} /> 返回 · Back
+        </button>
 
         <motion.h1
           initial={{ opacity: 0, y: 20 }}
