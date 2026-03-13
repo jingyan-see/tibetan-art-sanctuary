@@ -75,53 +75,59 @@ const Index = () => {
         </div>
       </section>
 
-      {/* ─── ARTIST INTRO ─── clean, centered, generous whitespace */}
-      <section className="py-24 md:py-32 px-6 relative">
+      {/* ─── ARTIST INTRO ─── horizontal layout with portrait + bio */}
+      <section className="py-20 md:py-28 px-6 relative">
         <TibetanCloud className="absolute top-12 left-4 w-36 text-accent/10 rotate-[-5deg]" />
         <TibetanCloud className="absolute top-20 right-8 w-28 text-accent/[0.07] rotate-[8deg] scale-x-[-1]" />
-        <DharmaWheel className="absolute top-16 right-16 w-14 text-accent/[0.05] animate-[spin_90s_linear_infinite]" />
+        <DharmaWheel className="absolute bottom-12 right-16 w-14 text-accent/[0.05] animate-[spin_90s_linear_infinite]" />
 
-        <div className="max-w-lg mx-auto text-center relative z-10">
-          {/* Portrait */}
-          <motion.div
-            initial="hidden"
-            whileInView="visible"
-            viewport={{ once: true }}
-            variants={fadeUp}
-            custom={0}
-            className="flex justify-center mb-10"
-          >
-            <div className="w-28 h-28 rounded-full overflow-hidden ring-1 ring-accent/30 ring-offset-4 ring-offset-background">
-              <img src={artistPortrait} alt="Thangka Artist" className="w-full h-full object-cover" />
+        <div className="max-w-3xl mx-auto relative z-10">
+          <div className="flex flex-col md:flex-row items-center md:items-start gap-10 md:gap-14">
+            {/* Portrait — larger, with decorative ring */}
+            <motion.div
+              initial="hidden"
+              whileInView="visible"
+              viewport={{ once: true }}
+              variants={fadeUp}
+              custom={0}
+              className="flex-shrink-0"
+            >
+              <div className="w-36 h-36 md:w-44 md:h-44 rounded-full overflow-hidden ring-1 ring-accent/30 ring-offset-4 ring-offset-background shadow-lg">
+                <img src={artistPortrait} alt="公却当周" className="w-full h-full object-cover" />
+              </div>
+            </motion.div>
+
+            {/* Text content */}
+            <div className="text-center md:text-left flex-1">
+              {/* Name heading */}
+              <motion.h2 variants={fadeUp} initial="hidden" whileInView="visible" viewport={{ once: true }} custom={0.3}
+                className="font-display text-2xl md:text-3xl text-foreground tracking-wider mb-2">
+                公却当周
+              </motion.h2>
+              <motion.div variants={fadeUp} initial="hidden" whileInView="visible" viewport={{ once: true }} custom={0.5}
+                className="flex items-center gap-3 mb-6 justify-center md:justify-start">
+                <div className="h-px w-10 bg-accent/30" />
+                <TibetanLotus className="w-6 text-accent/30" />
+                <div className="h-px w-10 bg-accent/30" />
+              </motion.div>
+
+              <motion.p variants={fadeUp} initial="hidden" whileInView="visible" viewport={{ once: true }} custom={0.8}
+                className="text-sm text-muted-foreground leading-[2] tracking-wide mb-4">
+                男，1990年生于青海同仁县吴屯村艺人之家。八岁师从唐卡大师桑斗合，与师共创作品收藏于热贡隆务大寺、五台山等地。作品多次荣获国家级金奖，入选青海国际唐卡博览会。2015年入中国工艺美术协会，2021年获吉尼斯挑战优秀奖。
+              </motion.p>
+              <motion.p variants={fadeUp} initial="hidden" whileInView="visible" viewport={{ once: true }} custom={1.1}
+                className="text-sm text-muted-foreground/80 leading-[2] tracking-wide italic mb-6">
+                传承藏传佛教唐卡绘画艺术三十余年，以虔诚之心绘制每一幅作品。采用天然矿物颜料与纯金，遵循传统工艺，将佛法智慧融入笔端。
+              </motion.p>
+
+              {/* Contact */}
+              <motion.div variants={fadeUp} initial="hidden" whileInView="visible" viewport={{ once: true }} custom={1.4}
+                className="flex items-center gap-2 text-xs text-muted-foreground/70 justify-center md:justify-start">
+                <Phone size={12} className="text-accent/60" />
+                <span className="tracking-wider">+86 155-0071-5000</span>
+              </motion.div>
             </div>
-          </motion.div>
-
-          {/* Decorative line */}
-          <motion.div variants={fadeUp} initial="hidden" whileInView="visible" viewport={{ once: true }} custom={0.5}
-            className="flex items-center justify-center gap-3 mb-8">
-            <div className="h-px w-12 bg-accent/30" />
-            <TibetanLotus className="w-8 text-accent/30" />
-            <div className="h-px w-12 bg-accent/30" />
-          </motion.div>
-
-          {/* Bio text */}
-          <motion.p variants={fadeUp} initial="hidden" whileInView="visible" viewport={{ once: true }} custom={1}
-            className="text-sm text-muted-foreground leading-[2] tracking-wide max-w-sm mx-auto mb-4">
-            <span className="font-medium text-foreground">公却当周</span>，男，1990年生于青海同仁县吴屯村艺人之家。八岁师从唐卡大师桑斗合，与师共创作品收藏于热贡隆务大寺、五台山等地。作品多次荣获国家级金奖，入选青海国际唐卡博览会。2015年入中国工艺美术协会，2021年获吉尼斯挑战优秀奖。
-          </motion.p>
-          <motion.p variants={fadeUp} initial="hidden" whileInView="visible" viewport={{ once: true }} custom={1.6}
-            className="text-sm text-muted-foreground leading-[2] tracking-wide max-w-sm mx-auto mb-10">
-            传承藏传佛教唐卡绘画艺术三十余年，以虔诚之心绘制每一幅作品。采用天然矿物颜料与纯金，遵循传统工艺，将佛法智慧融入笔端。
-          </motion.p>
-
-          {/* Contact — subtle, inline */}
-          <motion.div variants={fadeUp} initial="hidden" whileInView="visible" viewport={{ once: true }} custom={2}
-            className="flex flex-col items-center gap-3 text-xs text-muted-foreground/70">
-            <div className="flex items-center gap-2">
-              <Phone size={12} className="text-accent/60" />
-              <span className="tracking-wider">+86 155-0071-5000</span>
-            </div>
-          </motion.div>
+          </div>
         </div>
       </section>
 
