@@ -11,6 +11,7 @@ const ThangkaDetailPage = () => {
   const { data: thangkas = [], isLoading } = useThangkas();
   const thangka = thangkas.find((t) => t.id === id);
   const [zoomed, setZoomed] = useState(false);
+  const navigate = useNavigate();
 
   if (isLoading) {
     return (
