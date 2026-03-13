@@ -8,6 +8,7 @@ import Index from "./pages/Index.tsx";
 import GalleryPage from "./pages/GalleryPage.tsx";
 import ThangkaDetailPage from "./pages/ThangkaDetailPage.tsx";
 import DeityCatalogPage from "./pages/DeityCatalogPage.tsx";
+import DeityGalleryPage from "./pages/DeityGalleryPage.tsx";
 import FindBuddhaPage from "./pages/FindBuddhaPage.tsx";
 import NotFound from "./pages/NotFound.tsx";
 
@@ -25,6 +26,7 @@ const App = () => (
           <Route path="/gallery/:type" element={<GalleryPage />} />
           <Route path="/thangka/:id" element={<ThangkaDetailPage />} />
           <Route path="/deities" element={<DeityCatalogPage />} />
+          <Route path="/deities/:deityId" element={<DeityGalleryPage />} />
           <Route path="/find-buddha" element={<FindBuddhaPage />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
