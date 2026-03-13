@@ -52,10 +52,10 @@ const Index = () => {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, delay: 0.5 }}
-            className="font-display text-5xl md:text-8xl text-primary-foreground tracking-wider mb-3 font-bold"
+          className="font-display text-5xl md:text-8xl text-primary-foreground tracking-wider mb-3 font-bold"
             style={{ textShadow: "0 2px 16px rgba(0,0,0,0.5), 0 0 40px rgba(0,0,0,0.2)" }}
           >
-            扎西·唐卡艺术
+            公却当周·唐卡艺术
           </motion.h1>
           <motion.div
             initial={{ width: 0 }}
