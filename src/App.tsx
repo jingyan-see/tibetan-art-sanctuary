@@ -8,6 +8,7 @@ import Index from "./pages/Index.tsx";
 import GalleryPage from "./pages/GalleryPage.tsx";
 import ThangkaDetailPage from "./pages/ThangkaDetailPage.tsx";
 import DeityCatalogPage from "./pages/DeityCatalogPage.tsx";
+import DeityGalleryPage from "./pages/DeityGalleryPage.tsx";
 import FindBuddhaPage from "./pages/FindBuddhaPage.tsx";
 import NotFound from "./pages/NotFound.tsx";
 
