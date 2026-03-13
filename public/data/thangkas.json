@@ -85,8 +85,8 @@
   },
   {
     "id": "wearable-amitabha",
-    "name": "阿弥陀佛·佩戴唐卡",
-    "nameEn": "Wearable Amitabha Thangka",
+    "name": "阿弥陀佛",
+    "nameEn": "Amitabha Thangka",
     "buddha": "amitabha",
     "type": "wearable",
     "typeCn": "佩戴唐卡",
