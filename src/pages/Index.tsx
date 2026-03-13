@@ -175,7 +175,7 @@ const Index = () => {
           <div className="h-px w-10 bg-accent/20" />
         </div>
         <p className="text-[11px] text-muted-foreground/60 tracking-[0.1em]">
-          © 2024 扎西·唐卡艺术 Tashi Thangka Art Studio
+          © 2024 公却当周·唐卡艺术 Gongque Dangzhou Thangka Art Studio
         </p>
         <p className="text-[10px] text-muted-foreground/40 mt-1.5 tracking-[0.3em]">
           传承 · 虔诚 · 艺术
