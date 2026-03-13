@@ -105,9 +105,9 @@ const Index = () => {
                 <h2 className="font-display text-2xl md:text-3xl text-foreground tracking-wider">
                   公却当周
                 </h2>
-                <span className="flex items-center gap-1.5 text-[10px] text-muted-foreground/50 tracking-wider">
-                  <Phone size={10} className="text-accent/50" />
-                  155-0071-5000
+                <span className="flex items-center gap-1.5 text-[10px] text-muted-foreground/70 tracking-wider">
+                  <Phone size={10} className="text-accent/60" />
+                  86-155-0071-5000
                 </span>
               </motion.div>
               <motion.div variants={fadeUp} initial="hidden" whileInView="visible" viewport={{ once: true }} custom={0.5}
