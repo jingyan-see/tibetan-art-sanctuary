@@ -109,8 +109,8 @@
   },
   {
     "id": "wearable-acala",
-    "name": "不动明王·佩戴唐卡",
-    "nameEn": "Wearable Acala Thangka",
+    "name": "不动明王",
+    "nameEn": "Acala Thangka",
     "buddha": "acala",
     "type": "wearable",
     "typeCn": "佩戴唐卡",
