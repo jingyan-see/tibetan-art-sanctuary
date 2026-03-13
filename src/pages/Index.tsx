@@ -46,16 +46,16 @@ const Index = () => {
             className="text-[11px] md:text-sm tracking-[0.35em] uppercase text-primary-foreground/80 mb-4 font-medium"
             style={{ fontFamily: "var(--font-display-en)", textShadow: "0 1px 8px rgba(0,0,0,0.4)" }}
           >
-            Thangka Art Studio · 唐卡艺术工作室
+            Thangka Art Studio · 公却当周唐卡艺术工作室
           </motion.p>
           <motion.h1
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, delay: 0.5 }}
-            className="font-display text-5xl md:text-8xl text-primary-foreground tracking-wider mb-3 font-bold"
+          className="font-display text-5xl md:text-8xl text-primary-foreground tracking-wider mb-3 font-bold"
             style={{ textShadow: "0 2px 16px rgba(0,0,0,0.5), 0 0 40px rgba(0,0,0,0.2)" }}
           >
-            扎西·唐卡艺术
+            公却当周·唐卡艺术
           </motion.h1>
           <motion.div
             initial={{ width: 0 }}
@@ -175,7 +175,7 @@ const Index = () => {
           <div className="h-px w-10 bg-accent/20" />
         </div>
         <p className="text-[11px] text-muted-foreground/60 tracking-[0.1em]">
-          © 2024 扎西·唐卡艺术 Tashi Thangka Art Studio
+          © 2024 公却当周·唐卡艺术 Gongque Dangzhou Thangka Art Studio
         </p>
         <p className="text-[10px] text-muted-foreground/40 mt-1.5 tracking-[0.3em]">
           传承 · 虔诚 · 艺术
