@@ -79,5 +79,14 @@
     "introduction": "This mandala contains the eight auspicious symbols (Ashtamangala) which represent the offerings made by celestial beings to Shakyamuni Buddha upon his enlightenment.",
     "symbolism": "The eight symbols — parasol, golden fishes, treasure vase, lotus, conch shell, endless knot, victory banner, and dharma wheel — each represent aspects of the Buddhist teachings.",
     "mantra": "Om Mani Padme Hum (嗡嘛呢叭咪吽)"
+  },
+  {
+    "id": "vaisravana",
+    "name": "财宝天王",
+    "nameEn": "Vaisravana",
+    "description": "King of the North, Guardian of Wealth",
+    "introduction": "Vaisravana (also known as Kubera or Jambhala's wrathful form) is the King of the North among the Four Heavenly Kings and the guardian of wealth and prosperity. He is revered as a powerful protector who bestows wealth and removes obstacles.",
+    "symbolism": "Vaisravana symbolizes the protection of dharma and the bestowal of spiritual and material wealth. He rides a snow lion, representing fearlessness and majesty, and holds a victory banner and a mongoose that spews jewels.",
+    "mantra": "Om Vaisravana Ye Soha (嗡 吠室罗摩拿耶 娑婆诃)"
   }
 ]
