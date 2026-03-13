@@ -73,8 +73,8 @@
   },
   {
     "id": "wearable-manjushri",
-    "name": "文殊菩萨·佩戴唐卡",
-    "nameEn": "Wearable Manjushri Thangka",
+    "name": "文殊菩萨",
+    "nameEn": "Manjushri Thangka",
     "buddha": "manjushri",
     "type": "wearable",
     "typeCn": "佩戴唐卡",
