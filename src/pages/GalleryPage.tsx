@@ -6,9 +6,9 @@ import ThangkaCard from "@/components/ThangkaCard";
 const GalleryPage = () => {
   const { type } = useParams<{ type: string }>();
   const { data: thangkas = [], isLoading } = useThangkas();
-  const filtered = thangkas.filter((t) =>
-    type === "wearable" ? t.type === "wearable" : t.type === "large"
-  );
+  const filtered = thangkas
+    .filter((t) => (type === "wearable" ? t.type === "wearable" : t.type === "large"))
+    .sort((a, b) => b.year.localeCompare(a.year));
   const title = type === "wearable" ? "佩戴唐卡" : "大型唐卡";
   const subtitle = type === "wearable" ? "Wearable Thangka" : "Large Thangka";
 
