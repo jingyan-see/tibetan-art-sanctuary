@@ -43,16 +43,17 @@ const Index = () => {
             initial={{ opacity: 0, y: 10 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.3 }}
-            className="text-[10px] md:text-xs tracking-[0.4em] uppercase text-primary-foreground/70 mb-4"
-            style={{ fontFamily: "var(--font-display-en)" }}
+            className="text-[11px] md:text-sm tracking-[0.35em] uppercase text-primary-foreground/80 mb-4 font-medium"
+            style={{ fontFamily: "var(--font-display-en)", textShadow: "0 1px 8px rgba(0,0,0,0.4)" }}
           >
-            Thangka Art Studio
+            Thangka Art Studio · 唐卡艺术工作室
           </motion.p>
           <motion.h1
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, delay: 0.5 }}
-            className="font-display text-4xl md:text-7xl text-primary-foreground tracking-wider mb-3"
+            className="font-display text-5xl md:text-8xl text-primary-foreground tracking-wider mb-3 font-bold"
+            style={{ textShadow: "0 2px 16px rgba(0,0,0,0.5), 0 0 40px rgba(0,0,0,0.2)" }}
           >
             扎西·唐卡艺术
           </motion.h1>
@@ -66,8 +67,8 @@ const Index = () => {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 1.2, duration: 0.8 }}
-            className="text-sm md:text-base text-primary-foreground/60 tracking-[0.15em]"
-            style={{ fontFamily: "var(--font-display-en)" }}
+            className="text-sm md:text-lg text-primary-foreground/75 tracking-[0.2em] font-medium"
+            style={{ textShadow: "0 1px 6px rgba(0,0,0,0.35)" }}
           >
             传承藏传佛教唐卡绘画三十余年
           </motion.p>
