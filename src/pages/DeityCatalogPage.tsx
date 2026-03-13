@@ -11,11 +11,17 @@ const DeityCatalogPage = () => {
   const { data: deities = [] } = useBuddhas();
   const { data: thangkas = [] } = useThangkas();
 
-  const filteredDeities = deities.filter(
-    (d) =>
-      d.name.toLowerCase().includes(search.toLowerCase()) ||
-      d.nameCn.includes(search)
-  );
+  const filteredDeities = deities
+    .filter(
+      (d) =>
+        d.name.toLowerCase().includes(search.toLowerCase()) ||
+        d.nameCn.includes(search)
+    )
+    .sort((a, b) => {
+      if (a.id === "multiple") return 1;
+      if (b.id === "multiple") return -1;
+      return a.name.localeCompare(b.name);
+    });
 
   const deityThangkas = selectedDeity
     ? thangkas.filter(
