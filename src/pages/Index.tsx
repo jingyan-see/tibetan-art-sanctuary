@@ -106,9 +106,14 @@ const Index = () => {
 
           {/* Bio text */}
           <motion.p variants={fadeUp} initial="hidden" whileInView="visible" viewport={{ once: true }} custom={1}
+            className="text-sm text-muted-foreground leading-[2] tracking-wide max-w-sm mx-auto mb-4">
+            <span className="font-medium text-foreground">公却当周</span>，男，1990年生于青海同仁县吴屯村艺人之家。
+            八岁师从唐卡大师桑斗合，与师共创作品收藏于热贡隆务大寺、五台山等地。
+          </motion.p>
+          <motion.p variants={fadeUp} initial="hidden" whileInView="visible" viewport={{ once: true }} custom={1.3}
             className="text-sm text-muted-foreground leading-[2] tracking-wide max-w-sm mx-auto mb-10">
-            传承藏传佛教唐卡绘画艺术三十余年，以虔诚之心绘制每一幅作品。
-            采用天然矿物颜料与纯金，遵循传统工艺，将佛法智慧融入笔端。
+            作品多次荣获国家级金奖，入选青海国际唐卡博览会。
+            2015年入中国工艺美术协会，2021年获吉尼斯挑战优秀奖。
           </motion.p>
 
           {/* Contact — subtle, inline */}
@@ -116,11 +121,7 @@ const Index = () => {
             className="flex flex-col items-center gap-3 text-xs text-muted-foreground/70">
             <div className="flex items-center gap-2">
               <Phone size={12} className="text-accent/60" />
-              <span className="tracking-wider">+86 139-XXXX-XXXX</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <Mail size={12} className="text-accent/60" />
-              <span className="tracking-wider">tashi@thangka-art.com</span>
+              <span className="tracking-wider">+86 155-0071-5000</span>
             </div>
           </motion.div>
         </div>
