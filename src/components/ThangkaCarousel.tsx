@@ -58,18 +58,20 @@ const ThangkaCarousel = () => {
           to={`/thangka/${t.id}`}
           className="flex-shrink-0"
         >
-          <motion.div
-            whileHover={{ y: -6 }}
-            transition={{ duration: 0.5, ease: [0.25, 0.1, 0.25, 1] }}
-            className="w-52 md:w-64 group"
-          >
-            <div className="overflow-hidden rounded-sm shadow-md aspect-[3/4] bg-card border border-accent/10">
-              <img
-                src={t.image}
-                alt={t.name}
-                className="w-full h-full object-cover transition-transform duration-1000 ease-out group-hover:scale-105"
-              />
-            </div>
+            <motion.div
+              whileHover={{ y: -6 }}
+              transition={{ duration: 0.5, ease: [0.25, 0.1, 0.25, 1] }}
+              className="w-52 md:w-64 group"
+            >
+              <div className="thangka-frame-slim">
+                <div className="overflow-hidden aspect-[3/4]">
+                  <img
+                    src={t.image}
+                    alt={t.name}
+                    className="w-full h-full object-cover transition-transform duration-1000 ease-out group-hover:scale-105"
+                  />
+                </div>
+              </div>
             <div className="pt-4 text-center">
               <h3 className="font-display text-sm text-foreground tracking-wider">{t.nameCn}</h3>
               <p
