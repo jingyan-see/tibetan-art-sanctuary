@@ -26,6 +26,7 @@ const App = () => (
           <Route path="/gallery/:type" element={<GalleryPage />} />
           <Route path="/thangka/:id" element={<ThangkaDetailPage />} />
           <Route path="/deities" element={<DeityCatalogPage />} />
+          <Route path="/deities/:deityId" element={<DeityGalleryPage />} />
           <Route path="/find-buddha" element={<FindBuddhaPage />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
