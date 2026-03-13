@@ -88,5 +88,59 @@
     "introduction": "Vaisravana (also known as Kubera or Jambhala's wrathful form) is the King of the North among the Four Heavenly Kings and the guardian of wealth and prosperity. He is revered as a powerful protector who bestows wealth and removes obstacles.",
     "symbolism": "Vaisravana symbolizes the protection of dharma and the bestowal of spiritual and material wealth. He rides a snow lion, representing fearlessness and majesty, and holds a victory banner and a mongoose that spews jewels.",
     "mantra": "Om Vaisravana Ye Soha (嗡 吠室罗摩拿耶 娑婆诃)"
+  },
+  {
+    "id": "shakyamuni",
+    "name": "释迦牟尼佛",
+    "nameEn": "Shakyamuni",
+    "description": "The Historical Buddha",
+    "introduction": "Shakyamuni Buddha is the historical founder of Buddhism, born as Prince Siddhartha Gautama. After years of spiritual seeking, he attained enlightenment under the Bodhi tree and spent the rest of his life teaching the path to liberation.",
+    "symbolism": "Shakyamuni represents the possibility of awakening for all sentient beings. His earth-touching gesture (bhumisparsha mudra) symbolizes his triumph over Mara and his enlightenment witnessed by the earth itself.",
+    "mantra": "Namo Shakyamuni Buddha (南无本师释迦牟尼佛)"
+  },
+  {
+    "id": "tara",
+    "name": "绿度母",
+    "nameEn": "Green Tara",
+    "description": "Mother of Liberation",
+    "introduction": "Green Tara is a female Bodhisattva of compassion and action, born from the tears of Avalokitesvara. She is the swift protectress who rescues beings from the eight great fears and guides them toward liberation.",
+    "symbolism": "Green Tara's green color symbolizes enlightened activity and vitality. Her right foot extended represents her readiness to spring into action to help all beings. The utpala lotus she holds signifies purity and compassion.",
+    "mantra": "Om Tare Tuttare Ture Soha (嗡 达咧 度达咧 度咧 梭哈)"
+  },
+  {
+    "id": "jambhala",
+    "name": "黄财神",
+    "nameEn": "Yellow Jambhala",
+    "description": "God of Wealth and Prosperity",
+    "introduction": "Yellow Jambhala is the most popular form of the Buddhist wealth deity, an emanation of Ratnasambhava Buddha. He bestows wealth and prosperity upon devotees to support their spiritual practice and benefit sentient beings.",
+    "symbolism": "His golden yellow body represents abundance and the richness of dharma. The mongoose (nakula) in his right hand spews precious jewels, symbolizing generosity. The citron fruit represents spiritual attainment.",
+    "mantra": "Om Jambhala Jalendraye Soha (嗡 赞巴拉 扎连达耶 梭哈)"
+  },
+  {
+    "id": "marici",
+    "name": "光明佛母",
+    "nameEn": "Marici",
+    "description": "Goddess of Light and Dawn",
+    "introduction": "Marici (also known as Marici Devi) is a celestial Bodhisattva associated with light, dawn, and the sun. She is a powerful protectress who can render devotees invisible to harm and obstacles.",
+    "symbolism": "With three faces and eight arms, Marici embodies the power of light that dispels all darkness. Her golden boar chariot symbolizes the dawn breaking through night. She holds various weapons representing her power to overcome all obstacles.",
+    "mantra": "Om Marici Ye Soha (嗡 摩利支耶 梭哈)"
+  },
+  {
+    "id": "cundi",
+    "name": "准提佛母",
+    "nameEn": "Cundi",
+    "description": "Mother of Seventy Million Buddhas",
+    "introduction": "Cundi Bodhisattva is revered as the Mother of Seventy Million Buddhas, a manifestation of Avalokitesvara's great compassion. With three faces and eighteen arms, she represents the perfection of all dharani practices.",
+    "symbolism": "Her eighteen arms each hold different implements representing the complete range of Buddhist practices and powers. The three faces — white, red, and green — symbolize compassion, wisdom, and wrathful activity respectively.",
+    "mantra": "Namo Saptanam Samyak Sambuddha Kotinam Om Cale Cule Cundi Soha (南无飒哆喃 三藐三菩陀 俱胝喃 嗡 折隶 主隶 准提 娑婆诃)"
+  },
+  {
+    "id": "ksitigarbha",
+    "name": "地藏王菩萨",
+    "nameEn": "Ksitigarbha",
+    "description": "Bodhisattva of the Great Vow",
+    "introduction": "Ksitigarbha is the Bodhisattva of the Great Vow, renowned for his pledge not to achieve Buddhahood until all hells are emptied. He is the guardian of beings in the six realms of existence, especially those suffering in the hell realms.",
+    "symbolism": "Ksitigarbha's vow 'If the hells are not empty, I shall not become a Buddha' represents the ultimate expression of bodhisattva compassion. He carries a wish-fulfilling jewel and a khakkhara staff to open the gates of hell.",
+    "mantra": "Om Ha Ha Ha Vismaye Soha (嗡 哈哈哈 微三摩耶 梭哈)"
   }
 ]
