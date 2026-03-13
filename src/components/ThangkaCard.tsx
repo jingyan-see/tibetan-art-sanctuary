@@ -7,14 +7,16 @@ const ThangkaCard = ({ thangka }: { thangka: Thangka }) => (
     <motion.div
       whileHover={{ y: -4 }}
       transition={{ duration: 0.3 }}
-      className="thangka-frame group cursor-pointer"
+      className="group cursor-pointer"
     >
-      <div className="overflow-hidden aspect-[3/4]">
-        <img
-          src={thangka.image}
-          alt={thangka.name}
-          className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
-        />
+      <div className="thangka-frame">
+        <div className="overflow-hidden aspect-[3/4]">
+          <img
+            src={thangka.image}
+            alt={thangka.name}
+            className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+          />
+        </div>
       </div>
       <div className="pt-3 pb-1 px-1 text-center">
         <h3 className="font-display text-sm font-semibold text-foreground">{thangka.nameCn}</h3>
