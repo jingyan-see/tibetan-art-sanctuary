@@ -46,7 +46,7 @@ const Index = () => {
             className="text-[11px] md:text-sm tracking-[0.35em] uppercase text-primary-foreground/80 mb-4 font-medium"
             style={{ fontFamily: "var(--font-display-en)", textShadow: "0 1px 8px rgba(0,0,0,0.4)" }}
           >
-            Thangka Art Studio · 唐卡艺术工作室
+            Thangka Art Studio · 公却当周唐卡艺术工作室
           </motion.p>
           <motion.h1
             initial={{ opacity: 0, y: 20 }}
