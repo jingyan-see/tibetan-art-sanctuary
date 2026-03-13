@@ -76,14 +76,14 @@ const Index = () => {
       </section>
 
       {/* ─── ARTIST INTRO ─── horizontal layout with portrait + bio */}
-      <section className="py-20 md:py-28 px-6 relative">
+      <section className="py-28 md:py-40 px-6 relative">
         <TibetanCloud className="absolute top-12 left-4 w-36 text-accent/10 rotate-[-5deg]" />
         <TibetanCloud className="absolute top-20 right-8 w-28 text-accent/[0.07] rotate-[8deg] scale-x-[-1]" />
         <DharmaWheel className="absolute bottom-12 right-16 w-14 text-accent/[0.05] animate-[spin_90s_linear_infinite]" />
 
         <div className="max-w-3xl mx-auto relative z-10">
           <div className="flex flex-col md:flex-row items-center md:items-start gap-10 md:gap-14">
-            {/* Portrait — larger, with decorative ring */}
+            {/* Portrait */}
             <motion.div
               initial="hidden"
               whileInView="visible"
@@ -99,11 +99,17 @@ const Index = () => {
 
             {/* Text content */}
             <div className="text-center md:text-left flex-1">
-              {/* Name heading */}
-              <motion.h2 variants={fadeUp} initial="hidden" whileInView="visible" viewport={{ once: true }} custom={0.3}
-                className="font-display text-2xl md:text-3xl text-foreground tracking-wider mb-2">
-                公却当周
-              </motion.h2>
+              {/* Name + phone in one row */}
+              <motion.div variants={fadeUp} initial="hidden" whileInView="visible" viewport={{ once: true }} custom={0.3}
+                className="flex items-baseline gap-4 justify-center md:justify-start mb-2">
+                <h2 className="font-display text-2xl md:text-3xl text-foreground tracking-wider">
+                  公却当周
+                </h2>
+                <span className="flex items-center gap-1.5 text-[10px] text-muted-foreground/50 tracking-wider">
+                  <Phone size={10} className="text-accent/50" />
+                  155-0071-5000
+                </span>
+              </motion.div>
               <motion.div variants={fadeUp} initial="hidden" whileInView="visible" viewport={{ once: true }} custom={0.5}
                 className="flex items-center gap-3 mb-6 justify-center md:justify-start">
                 <div className="h-px w-10 bg-accent/30" />
@@ -116,16 +122,9 @@ const Index = () => {
                 男，1990年生于青海同仁县吴屯村艺人之家。八岁师从唐卡大师桑斗合，与师共创作品收藏于热贡隆务大寺、五台山等地。作品多次荣获国家级金奖，入选青海国际唐卡博览会。2015年入中国工艺美术协会，2021年获吉尼斯挑战优秀奖。
               </motion.p>
               <motion.p variants={fadeUp} initial="hidden" whileInView="visible" viewport={{ once: true }} custom={1.1}
-                className="text-sm text-muted-foreground/80 leading-[2] tracking-wide italic mb-6">
+                className="text-sm text-muted-foreground/80 leading-[2] tracking-wide italic">
                 传承藏传佛教唐卡绘画艺术三十余年，以虔诚之心绘制每一幅作品。采用天然矿物颜料与纯金，遵循传统工艺，将佛法智慧融入笔端。
               </motion.p>
-
-              {/* Contact */}
-              <motion.div variants={fadeUp} initial="hidden" whileInView="visible" viewport={{ once: true }} custom={1.4}
-                className="flex items-center gap-2 text-xs text-muted-foreground/70 justify-center md:justify-start">
-                <Phone size={12} className="text-accent/60" />
-                <span className="tracking-wider">+86 155-0071-5000</span>
-              </motion.div>
             </div>
           </div>
         </div>
