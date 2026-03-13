@@ -1,4 +1,4 @@
-import { useParams, Link } from "react-router-dom";
+import { useParams, useNavigate } from "react-router-dom";
 import { motion } from "framer-motion";
 import { useThangkas } from "@/hooks/useData";
 import ThangkaCard from "@/components/ThangkaCard";
@@ -11,6 +11,7 @@ const ThangkaDetailPage = () => {
   const { data: thangkas = [], isLoading } = useThangkas();
   const thangka = thangkas.find((t) => t.id === id);
   const [zoomed, setZoomed] = useState(false);
+  const navigate = useNavigate();
 
   if (isLoading) {
     return (
@@ -33,12 +34,12 @@ const ThangkaDetailPage = () => {
   return (
     <div className="pt-16 min-h-screen">
       <div className="px-6 py-8 max-w-4xl mx-auto">
-        <Link
-          to={`/gallery/${thangka.type}`}
+        <button
+          onClick={() => navigate(-1)}
           className="inline-flex items-center gap-2 text-sm text-muted-foreground hover:text-primary mb-8"
         >
           <ArrowLeft size={16} /> 返回 · Back
-        </Link>
+        </button>
 
         <motion.div
           initial={{ opacity: 0 }}
