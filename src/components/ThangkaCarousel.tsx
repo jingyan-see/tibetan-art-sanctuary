@@ -4,7 +4,8 @@ import { Link } from "react-router-dom";
 import { useThangkas } from "@/hooks/useData";
 
 const ThangkaCarousel = () => {
-  const { data: thangkas = [] } = useThangkas();
+  const { data: allThangkas = [] } = useThangkas();
+  const thangkas = allThangkas.filter((t) => t.type === "large");
   const scrollRef = useRef<HTMLDivElement>(null);
   const animationRef = useRef<number>();
   const isPaused = useRef(false);
