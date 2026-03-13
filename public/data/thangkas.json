@@ -61,8 +61,8 @@
   },
   {
     "id": "wearable-avalokitesvara",
-    "name": "观音菩萨·佩戴唐卡",
-    "nameEn": "Wearable Avalokitesvara Thangka",
+    "name": "观音菩萨",
+    "nameEn": "Avalokitesvara Thangka",
     "buddha": "avalokitesvara",
     "type": "wearable",
     "typeCn": "佩戴唐卡",
