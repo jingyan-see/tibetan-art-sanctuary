@@ -1,4 +1,4 @@
-import { useParams, Link } from "react-router-dom";
+import { useParams, useNavigate } from "react-router-dom";
 import { motion } from "framer-motion";
 import { useThangkas } from "@/hooks/useData";
 import ThangkaCard from "@/components/ThangkaCard";
