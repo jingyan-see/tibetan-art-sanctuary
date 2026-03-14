@@ -27,7 +27,7 @@ const Navbar = () => {
           : "bg-transparent"
       }`}
     >
-      <div className="max-w-6xl mx-auto px-6 flex items-center justify-center h-14 gap-10 sm:gap-14">
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 flex items-center justify-start sm:justify-center h-14 gap-6 sm:gap-14 overflow-x-auto scrollbar-hide">
         {navItems.map((item) => {
           const isActive =
             location.pathname === item.path ||
