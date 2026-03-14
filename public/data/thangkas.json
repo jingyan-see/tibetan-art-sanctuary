@@ -71,18 +71,18 @@
     "year": "2024",
     "description": "微型佩戴唐卡，精绘阿弥陀佛禅定圣像。以朱砂红与赤金为主色调，在方寸之间重现西方极乐净土的庄严殊胜。纯金边框镶嵌，可作为念佛修行者的随身护佑之物。"
   },
-  {
-    "id": "wearable-vairocana",
-    "name": "大日如来",
-    "nameEn": "Vairocana Thangka",
-    "buddha": "vairocana",
-    "type": "wearable",
-    "typeCn": "佩戴唐卡",
-    "image": "w004.jpg",
-    "size": "4cm × 5cm",
-    "year": "2024",
-    "description": "微型佩戴唐卡，精绘大日如来法身像。以白金色调为主，象征遍照法界的无量光明。极细笔触在毫厘之间展现完整的佛像与莲座细节，纯金框体精致典雅，适合日常佩戴供养。"
-  },
+    {
+      "id": "wearable-vairocana",
+      "name": "大日如来",
+      "nameEn": "Vairocana Thangka",
+      "buddha": "vairocana",
+      "type": "wearable",
+      "typeCn": "佩戴唐卡",
+      "image": "w004.jpg",
+      "size": "3.5cm × 4.5cm",
+      "year": "2024",
+      "description": "微型佩戴唐卡，精绘大日如来三面法身像。主尊三面法相庄严，头戴五佛宝冠，双手结禅定印，端坐于莲花宝座之上。以深蓝底色衬托金身，配红蓝宝石点缀，极细笔触在毫厘之间展现完整的佛像与莲座细节。纯金外框精工镶嵌，适合日常佩戴供养，祈愿光明遍照、智慧圆满。"
+    },
   {
     "id": "wearable-acala",
     "name": "不动明王",
