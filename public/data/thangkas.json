@@ -288,6 +288,42 @@
     "description": "微型佩戴唐卡，采用蓝唐卡技法精绘普贤菩萨骑乘白象的庄严法相。以深邃宝蓝色为底色，银线与白色颜料勾勒菩萨与白象的细节，整体色调静谧典雅。纯金外框精工镶嵌，蓝银交辉，展现普贤菩萨十大愿王的慈悲与庄严之美。"
   },
   {
+    "id": "wearable-manjushri-2",
+    "name": "文殊菩萨",
+    "nameEn": "Manjushri Thangka",
+    "buddha": "manjushri",
+    "type": "wearable",
+    "typeCn": "佩戴唐卡",
+    "image": "w022.jpg",
+    "size": "3.5cm × 4.5cm",
+    "year": "2024",
+    "description": "微型佩戴唐卡，采用黑金唐卡技法精绘文殊菩萨庄严法相。以深邃黑色为底色，纯金线描与蓝色点缀勾勒菩萨端坐莲花宝座的法相，右手高举智慧之剑，左手持般若经卷。黑金蓝三色交辉，纤毫毕现，纯金外框精工镶嵌，适合求智慧者随身佩戴。"
+  },
+  {
+    "id": "wearable-manjushri-3",
+    "name": "文殊菩萨",
+    "nameEn": "Manjushri Thangka",
+    "buddha": "manjushri",
+    "type": "wearable",
+    "typeCn": "佩戴唐卡",
+    "image": "w023.jpg",
+    "size": "3.5cm × 4.5cm",
+    "year": "2024",
+    "description": "微型佩戴唐卡，精绘文殊菩萨彩绘法相。菩萨右手高举智慧之剑，左手持般若经卷，端坐于莲花宝座之上。以天然矿物颜料精工绘制，色彩绚丽饱满，红绿蓝金配色明丽庄严。纯金外框精工镶嵌，适合学子及求智慧增长者随身佩戴供养。"
+  },
+  {
+    "id": "wearable-whitetara",
+    "name": "白度母",
+    "nameEn": "White Tara Thangka",
+    "buddha": "whitetara",
+    "type": "wearable",
+    "typeCn": "佩戴唐卡",
+    "image": "w024.jpg",
+    "size": "3.5cm × 4.5cm",
+    "year": "2024",
+    "description": "微型佩戴唐卡，精绘白度母庄严法相。白度母身呈白色，头戴五佛宝冠，双手结说法印，端坐于莲花宝座之上。以蓝色为背景，天然矿物颜料精工绘制，色彩典雅明丽，四周花卉繁茂。纯金外框精工镶嵌，适合祈愿长寿安康、福慧增长者随身佩戴供养。"
+  },
+  {
     "id": "marici-1",
     "name": "光明佛母",
     "nameEn": "Marici Devi",
