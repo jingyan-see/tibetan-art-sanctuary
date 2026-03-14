@@ -156,6 +156,54 @@
     "description": "微型佩戴唐卡，精绘财宝天王庄严法相。北方多闻天王身色金黄，骑乘白狮，手持胜利幢与吐宝鼠，四周环绕祥云与护法眷属。以天然矿物颜料精工绘制，纯金外框镶嵌，据信可招财纳福、辟邪护身，适合日常佩戴供养。"
   },
   {
+    "id": "wearable-black-jambhala-2",
+    "name": "黑财神",
+    "nameEn": "Black Jambhala Thangka",
+    "buddha": "black-jambhala",
+    "type": "wearable",
+    "typeCn": "佩戴唐卡",
+    "image": "w011.jpg",
+    "size": "4cm × 5cm",
+    "year": "2024",
+    "description": "微型佩戴唐卡，精绘黑财神忿怒护法像。黑财神身呈深蓝色，面容忿怒庄严，身披璎珞骨饰，烈焰光环环绕全身。右手持髑髅碗，左手握吐宝鼬，脚踏外道魔众。以石青、朱砂等天然矿物颜料在方寸之间纤毫毕现，纯金外框精工镶嵌，据信可辟邪护财、降伏一切贫困障碍。"
+  },
+  {
+    "id": "wearable-shakyamuni",
+    "name": "释迦牟尼佛",
+    "nameEn": "Shakyamuni Thangka",
+    "buddha": "shakyamuni",
+    "type": "wearable",
+    "typeCn": "佩戴唐卡",
+    "image": "w012.jpg",
+    "size": "3.5cm × 4.5cm",
+    "year": "2024",
+    "description": "微型佩戴唐卡，精绘释迦牟尼佛成道圣像。佛陀身披金色袈裟，结跏趺坐于莲花宝座之上，双手结禅定印，面容慈悲安详。背景以蓝绿色为主调，配以精美花卉纹饰。以天然矿物颜料精工绘制，纯金外框镶嵌，适合修行者随身佩戴供养，祈愿智慧增长、福慧圆满。"
+  },
+  {
+    "id": "wearable-avalokitesvara-1000arms",
+    "name": "千手观音",
+    "nameEn": "Thousand-Armed Avalokitesvara Thangka",
+    "buddha": "avalokitesvara",
+    "type": "wearable",
+    "typeCn": "佩戴唐卡",
+    "image": "w013.jpg",
+    "size": "3.5cm × 4.5cm",
+    "year": "2024",
+    "description": "微型佩戴唐卡，精绘千手千眼观世音菩萨立像。十一面法相层层叠起，千手呈扇形展开，每掌心各有一眼，象征遍观十方、救度众生的无量慈悲。背景以深蓝色天空与莲花为衬托，以天然矿物颜料在方寸之间纤毫毕现，纯金外框精工镶嵌，适合祈愿消灾延寿、福慧增长者随身佩戴供养。"
+  },
+  {
+    "id": "wearable-jambhala-2",
+    "name": "黄财神",
+    "nameEn": "Yellow Jambhala Thangka",
+    "buddha": "jambhala",
+    "type": "wearable",
+    "typeCn": "佩戴唐卡",
+    "image": "w014.jpg",
+    "size": "4cm × 5cm",
+    "year": "2024",
+    "description": "微型佩戴唐卡，采用黑金唐卡技法精绘黄财神庄严法相。黄财神身色金黄，一面二臂，右手持吐宝鼠，左手握摩尼宝珠，以如意坐姿坐于莲花座上。以黑色为底色，纯金线描勾勒细节，镶嵌宝石点缀的纯金外框精工制作，适合祈愿招财纳福、事业顺遂者随身佩戴供养。"
+  },
+  {
     "id": "marici-1",
     "name": "光明佛母",
     "nameEn": "Marici Devi",
