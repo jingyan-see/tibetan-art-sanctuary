@@ -43,16 +43,19 @@ const Index = () => {
             initial={{ opacity: 0, y: 10 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.3 }}
-            className="text-[11px] md:text-sm tracking-[0.35em] uppercase text-primary-foreground/80 mb-4 font-medium"
+            className="text-[10px] md:text-sm tracking-[0.2em] md:tracking-[0.35em] uppercase text-primary-foreground/80 mb-3 md:mb-4 font-medium leading-relaxed"
             style={{ fontFamily: "var(--font-display-en)", textShadow: "0 1px 8px rgba(0,0,0,0.4)" }}
           >
-            Thangka Art Studio · 公却当周唐卡艺术工作室
+            Thangka Art Studio
+            <span className="hidden sm:inline"> · </span>
+            <br className="sm:hidden" />
+            公却当周唐卡艺术工作室
           </motion.p>
           <motion.h1
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, delay: 0.5 }}
-          className="font-display text-5xl md:text-8xl text-primary-foreground tracking-wider mb-3 font-bold"
+            className="font-display text-[2.5rem] md:text-8xl text-primary-foreground tracking-wider mb-3 font-bold leading-tight"
             style={{ textShadow: "0 2px 16px rgba(0,0,0,0.5), 0 0 40px rgba(0,0,0,0.2)" }}
           >
             公却当周·唐卡艺术
