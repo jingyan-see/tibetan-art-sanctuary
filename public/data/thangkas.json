@@ -130,8 +130,32 @@
      "size": "3.5cm × 4.5cm",
      "year": "2024",
      "description": "微型佩戴唐卡，精绘黑财神忿怒护法像。黑财神身呈深蓝黑色，面容威猛庄严，手持髑髅碗与吐宝鼬。以石青、朱砂等天然矿物颜料精工绘制，纯金外框镶嵌，据信可辟邪护财、降伏贫困障碍，适合修财神法者随身佩戴。"
-   },
-   {
+  },
+  {
+    "id": "wearable-vaisravana-1",
+    "name": "财宝天王",
+    "nameEn": "Vaisravana Thangka",
+    "buddha": "vaisravana",
+    "type": "wearable",
+    "typeCn": "佩戴唐卡",
+    "image": "w009.jpg",
+    "size": "3.5cm × 4.5cm",
+    "year": "2024",
+    "description": "微型佩戴唐卡，精绘财宝天王骑乘雪狮的威猛护法像。天王身披金甲，面容威严，手持宝幢与吐宝鼠，四周环绕八匹神马及护法眷属。以天然矿物颜料在方寸之间纤毫毕现，纯金外框精工镶嵌，适合祈求财运亨通、事业顺利者随身佩戴供养。"
+  },
+  {
+    "id": "wearable-vaisravana-2",
+    "name": "财宝天王",
+    "nameEn": "Vaisravana Thangka",
+    "buddha": "vaisravana",
+    "type": "wearable",
+    "typeCn": "佩戴唐卡",
+    "image": "w010.jpg",
+    "size": "3.5cm × 4.5cm",
+    "year": "2024",
+    "description": "微型佩戴唐卡，精绘财宝天王庄严法相。北方多闻天王身色金黄，骑乘白狮，手持胜利幢与吐宝鼠mongoose，四周环绕祥云与护法眷属。以天然矿物颜料精工绘制，纯金外框镶嵌，据信可招财纳福、辟邪护身，适合日常佩戴供养。"
+  },
+  {
     "id": "marici-1",
     "name": "光明佛母",
     "nameEn": "Marici Devi",
