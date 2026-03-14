@@ -252,6 +252,42 @@
     "description": "微型佩戴唐卡，精绘大势至菩萨立像法相。菩萨头戴宝瓶冠，身披华丽天衣，手持莲花，立于莲花宝座之上，四周彩虹光环与祥云环绕。以天然矿物颜料精工绘制，色彩绚丽明快，纯金镂空外框精工镶嵌，适合日常佩戴供养，祈愿大势至菩萨智慧之光照耀前路。"
   },
   {
+    "id": "wearable-samantabhadra-1",
+    "name": "普贤菩萨",
+    "nameEn": "Samantabhadra Thangka",
+    "buddha": "samantabhadra",
+    "type": "wearable",
+    "typeCn": "佩戴唐卡",
+    "image": "w019.jpg",
+    "size": "4cm × 5cm",
+    "year": "2024",
+    "description": "微型佩戴唐卡，精绘普贤菩萨骑乘六牙白象的庄严法相。菩萨身呈白色，头戴宝冠，手持莲花，端坐于白象之上。以深蓝色为底色，天然矿物颜料与纯金线描精工绘制，四周金色花纹繁密精美。纯金外框镶嵌，适合修行普贤十大愿王者随身佩戴供养。"
+  },
+  {
+    "id": "wearable-samantabhadra-2",
+    "name": "普贤菩萨",
+    "nameEn": "Samantabhadra Thangka",
+    "buddha": "samantabhadra",
+    "type": "wearable",
+    "typeCn": "佩戴唐卡",
+    "image": "w020.jpg",
+    "size": "3.5cm × 4.5cm",
+    "year": "2024",
+    "description": "微型佩戴唐卡，采用金唐卡技法精绘普贤菩萨庄严法相。以金色为底色，纯金线描勾勒菩萨端坐莲花宝座的法相，蓝绿色点缀其间。纯金外框精工镶嵌，金色底韵尽显菩萨大行愿力的殊胜庄严，适合日常佩戴供养。"
+  },
+  {
+    "id": "wearable-samantabhadra-3",
+    "name": "普贤菩萨",
+    "nameEn": "Samantabhadra Thangka",
+    "buddha": "samantabhadra",
+    "type": "wearable",
+    "typeCn": "佩戴唐卡",
+    "image": "w021.jpg",
+    "size": "3.5cm × 4.5cm",
+    "year": "2024",
+    "description": "微型佩戴唐卡，采用蓝唐卡技法精绘普贤菩萨骑乘白象的庄严法相。以深邃宝蓝色为底色，银线与白色颜料勾勒菩萨与白象的细节，整体色调静谧典雅。纯金外框精工镶嵌，蓝银交辉，展现普贤菩萨十大愿王的慈悲与庄严之美。"
+  },
+  {
     "id": "marici-1",
     "name": "光明佛母",
     "nameEn": "Marici Devi",
