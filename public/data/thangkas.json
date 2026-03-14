@@ -108,6 +108,30 @@
      "description": "微型佩戴唐卡，精绘绿度母庄严法相。度母身呈翡翠绿色，右手施愿印，左手持乌巴拉花，半跏趺坐于莲花座上。以天然矿物颜料在方寸之间纤毫毕现，纯金外框精工镶嵌，适合祈愿消灾延寿、福慧增长者随身佩戴供养。"
    },
    {
+     "id": "wearable-jambhala",
+     "name": "黄财神",
+     "nameEn": "Yellow Jambhala Thangka",
+     "buddha": "jambhala",
+     "type": "wearable",
+     "typeCn": "佩戴唐卡",
+     "image": "w007.jpg",
+     "size": "3.5cm × 4.5cm",
+     "year": "2024",
+     "description": "微型佩戴唐卡，精绘黄财神庄严法相。黄财神身色金黄，一面二臂，右手持吐宝鼠，左手握摩尼宝珠。以天然矿物颜料在方寸之间纤毫毕现，纯金外框精工镶嵌，适合祈愿招财纳福、事业顺遂者随身佩戴供养。"
+   },
+   {
+     "id": "wearable-black-jambhala",
+     "name": "黑财神",
+     "nameEn": "Black Jambhala Thangka",
+     "buddha": "black-jambhala",
+     "type": "wearable",
+     "typeCn": "佩戴唐卡",
+     "image": "w008.jpg",
+     "size": "3.5cm × 4.5cm",
+     "year": "2024",
+     "description": "微型佩戴唐卡，精绘黑财神忿怒护法像。黑财神身呈深蓝黑色，面容威猛庄严，手持髑髅碗与吐宝鼬。以石青、朱砂等天然矿物颜料精工绘制，纯金外框镶嵌，据信可辟邪护财、降伏贫困障碍，适合修财神法者随身佩戴。"
+   },
+   {
     "id": "marici-1",
     "name": "光明佛母",
     "nameEn": "Marici Devi",
