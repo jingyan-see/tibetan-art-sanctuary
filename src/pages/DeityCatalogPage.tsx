@@ -53,11 +53,11 @@ const DeityCatalogPage = () => {
             >
               <Link
                 to={`/deities/${d.id}`}
-                className="block p-4 text-left border rounded-sm transition-all duration-300 bg-card border-border hover:border-accent hover:shadow-md"
+                className="block h-full p-4 text-left border rounded-sm transition-all duration-300 bg-card border-border hover:border-accent hover:shadow-md"
               >
                 <h3 className="font-display text-sm font-semibold text-foreground">{d.nameCn}</h3>
                 <p className="text-xs mt-0.5 text-muted-foreground">{d.name}</p>
-                <p className="text-xs mt-1 text-accent">{d.description}</p>
+                <p className="text-xs mt-1 text-accent line-clamp-2">{d.description}</p>
               </Link>
             </motion.div>
           ))}
