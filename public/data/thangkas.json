@@ -96,6 +96,18 @@
      "description": "微型佩戴唐卡，精绘不动明王忿怒护法像。烈焰光环与威猛法相在方寸之间纤毫毕现，以石青、朱砂等天然矿物颜料精工绘制。纯金外框镶嵌，据信可辟邪护身、降伏障碍。"
    },
    {
+     "id": "wearable-acala-2",
+     "name": "不动明王",
+     "nameEn": "Acala Thangka",
+     "buddha": "acala",
+     "type": "wearable",
+     "typeCn": "佩戴唐卡",
+     "image": "w027.jpg",
+     "size": "4cm × 5cm",
+     "year": "2024",
+     "description": "微型佩戴唐卡，采用黑金唐卡技法精绘不动明王忿怒护法像。以深邃黑色为底色，纯金线描勾勒明王威猛法相，烈焰光环与蛇索环绕全身，面容忿怒庄严。黑金交辉，纤毫毕现，纯金外框精工镶嵌，据信可辟邪护身、降伏一切障碍。"
+   },
+   {
      "id": "wearable-tara",
      "name": "绿度母",
      "nameEn": "Green Tara Thangka",
