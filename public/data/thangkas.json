@@ -179,18 +179,18 @@
     "year": "2024",
     "description": "微型佩戴唐卡，精绘黑财神忿怒护法像。黑财神身呈深蓝色，面容忿怒庄严，身披璎珞骨饰，烈焰光环环绕全身。右手持髑髅碗，左手握吐宝鼬，脚踏外道魔众。以石青、朱砂等天然矿物颜料在方寸之间纤毫毕现，纯金外框精工镶嵌，据信可辟邪护财、降伏一切贫困障碍。"
   },
-  {
-    "id": "wearable-shakyamuni",
-    "name": "释迦牟尼佛",
-    "nameEn": "Shakyamuni Thangka",
-    "buddha": "shakyamuni",
-    "type": "wearable",
-    "typeCn": "佩戴唐卡",
-    "image": "w012.jpg",
-    "size": "3.5cm × 4.5cm",
-    "year": "2024",
-    "description": "微型佩戴唐卡，精绘释迦牟尼佛成道圣像。佛陀身披金色袈裟，结跏趺坐于莲花宝座之上，双手结禅定印，面容慈悲安详。背景以蓝绿色为主调，配以精美花卉纹饰。以天然矿物颜料精工绘制，纯金外框镶嵌，适合修行者随身佩戴供养，祈愿智慧增长、福慧圆满。"
-  },
+    {
+      "id": "wearable-shakyamuni",
+      "name": "阿弥陀佛",
+      "nameEn": "Amitabha Thangka",
+      "buddha": "amitabha",
+      "type": "wearable",
+      "typeCn": "佩戴唐卡",
+      "image": "w012.jpg",
+      "size": "3.5cm × 4.5cm",
+      "year": "2024",
+      "description": "微型佩戴唐卡，精绘阿弥陀佛禅定圣像。佛陀结跏趺坐于莲花宝座之上，双手结禅定印，面容慈悲安详。以天然矿物颜料精工绘制，红蓝金配色明丽庄严。纯金外框精工镶嵌，适合念佛修行者随身佩戴供养，祈愿往生极乐、智慧圆满。"
+    },
   {
     "id": "wearable-avalokitesvara-1000arms",
     "name": "千手观音",
