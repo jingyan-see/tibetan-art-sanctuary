@@ -37,15 +37,27 @@
   },
   {
     "id": "wearable-avalokitesvara",
-    "name": "观音菩萨",
-    "nameEn": "Avalokitesvara Thangka",
+    "name": "四臂观音",
+    "nameEn": "Four-Armed Avalokitesvara Thangka",
     "buddha": "avalokitesvara",
     "type": "wearable",
     "typeCn": "佩戴唐卡",
     "image": "w001.jpg",
     "size": "4cm × 5cm",
     "year": "2024",
-    "description": "微型佩戴唐卡，精绘观世音菩萨（观音）圣像。以极细画笔在方寸之间重现传统唐卡全部细节，纯金外框镶嵌，可作为贴身护身符佩戴，随身感受菩萨慈悲加持。"
+    "description": "微型佩戴唐卡，精绘四臂观音庄严法相。四臂观音身呈白色，一面四臂，主二臂于胸前合掌，另二臂分持水晶念珠与莲花。以天然矿物颜料在方寸之间纤毫毕现，红色底色衬托观音金身，纯金外框精工镶嵌，适合祈愿消灾延寿、福慧增长者随身佩戴供养。"
+  },
+  {
+    "id": "wearable-avalokitesvara-4arms",
+    "name": "四臂观音",
+    "nameEn": "Four-Armed Avalokitesvara Thangka",
+    "buddha": "avalokitesvara",
+    "type": "wearable",
+    "typeCn": "佩戴唐卡",
+    "image": "w025.jpg",
+    "size": "4cm × 5cm",
+    "year": "2024",
+    "description": "微型佩戴唐卡，采用黑金唐卡技法精绘四臂观音庄严法相。以深邃黑色为底色，纯金线描勾勒四臂观音端坐莲花宝座的法相，主二臂合掌于胸前，另二臂持念珠与莲花。黑金交辉，庄严殊胜，纯金外框精工镶嵌，适合修持六字大明咒者随身佩戴供养。"
   },
   {
     "id": "wearable-manjushri",
