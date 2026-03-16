@@ -264,6 +264,18 @@
     "description": "微型佩戴唐卡，精绘大势至菩萨庄严法相。菩萨头戴宝瓶冠，身披蓝色天衣，端坐于莲花宝座之上，以智慧之光遍照众生。以天然矿物颜料精工绘制，蓝绿金配色庄严典雅，纯金外框镶嵌，适合祈愿智慧增长、事业顺遂者随身佩戴供养。"
   },
   {
+    "id": "wearable-mahasthamaprapta-2",
+    "name": "大势至菩萨",
+    "nameEn": "Mahasthamaprapta Thangka",
+    "buddha": "mahasthamaprapta",
+    "type": "wearable",
+    "typeCn": "佩戴唐卡",
+    "image": "w028.jpg",
+    "size": "4cm × 5cm",
+    "year": "2024",
+    "description": "微型佩戴唐卡，采用黑金唐卡技法精绘大势至菩萨庄严法相。以深邃黑色为底色，纯金线描勾勒菩萨端坐莲花宝座的法相，头戴宝瓶冠，双手结说法印，四周金色花叶纹饰繁密精美。黑金交辉，庄严殊胜，纯金外框精工镶嵌，适合祈愿智慧增长者随身佩戴供养。"
+  },
+  {
     "id": "wearable-samantabhadra-1",
     "name": "普贤菩萨",
     "nameEn": "Samantabhadra Thangka",
